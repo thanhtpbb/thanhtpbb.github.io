@@ -1,0 +1,21 @@
+:root {
+  --color-light: #fff;
+  --color-heading: #5b3909;
+  --color-paragraph: #795b39;
+  --color-primary: #a95c44;
+  --color-background-primary: #fff1e1;
+  --color-background-secondary: #efcfaa;
+  --color-background-tertiary: #0d0d0d;
+}
+
+.light-text {
+  color: var(--color-light);
+}
+
+.heading-text {
+  color: var(--color-heading);
+}
+
+.paragraph-text {
+  color: var(--color-paragraph);
+}

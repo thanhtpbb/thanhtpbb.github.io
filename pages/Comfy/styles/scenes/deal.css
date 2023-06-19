@@ -1,0 +1,81 @@
+/* Deal */
+#deal {
+  background-color: var(--color-secondary);
+  justify-content: space-between;
+}
+
+#deal__content {
+  padding: 100px 0 100px 135px;
+}
+
+#deal__heading {
+  color: var(--color-white);
+  margin-bottom: 40px;
+}
+
+#deal_desc {
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--color-white);
+
+  margin-bottom: 56px;
+}
+
+#deal__button {
+  width: 302px;
+  height: 91px;
+
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+#deal__shirt {
+  width: 737px;
+  height: 708.68px;
+
+  background-image: url('../../assets/img/shirt.png');
+  background-position: right;
+  background-size: cover;
+}
+
+@media (max-width: 1200px) {
+  #deal {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #deal__content {
+    padding: 47px 68px 17px;
+  }
+
+  #deal__heading {
+    margin-bottom: 17px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  #deal_desc {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 24px;
+  }
+
+  #deal__button {
+    width: 151px;
+    height: 50px;
+
+    align-self: center;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  #deal__shirt {
+    width: 320px;
+    height: 290px;
+    margin-bottom: 24px;
+  }
+}

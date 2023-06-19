@@ -1,0 +1,55 @@
+.btn {
+  /* Positioning */
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+
+  /* Box Model */
+  padding: 12px 28px 12px 27px;
+  margin-bottom: 0;
+
+  /* Typography */
+  text-align: center;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 137.5%;
+
+  /* Visual */
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 50px;
+
+  /* Miscellaneous */
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn:hover {
+  background-color: var(--color-tertiary);
+  color: var(--color-light);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+/*  */
+@media (max-width: 1200px) {
+  .btn {
+    padding: 12px 28px 12px 27px;
+    font-size: 18px;
+    line-height: 137.5%;
+  }
+}

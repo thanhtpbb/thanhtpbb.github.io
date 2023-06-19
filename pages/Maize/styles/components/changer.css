@@ -1,0 +1,26 @@
+.changer {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 0.5px solid var(--color-primary);
+}
+
+.changers {
+  gap: 22.35px;
+}
+
+@media (max-width: 1200px) {
+  .changer {
+    width: 25px;
+    height: 25px;
+  }
+
+  .changer > img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .changers {
+    gap: 12.55px;
+  }
+}

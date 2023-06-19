@@ -1,0 +1,34 @@
+#landing {
+  padding: 493px 0 70px 135px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../../assets/img/landing-bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#landing__paragraph {
+  font-size: 14px;
+  line-height: 15px;
+  margin: 15px 0 30px;
+}
+
+#landing__button {
+  padding: 16px 83px 15px 84px;
+}
+
+@media (max-width: 1200px) {
+  #landing {
+    padding: 180px 15px 20px;
+  }
+
+  #landing__heading {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  #landing__paragraph {
+    margin: 10px 0 20px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

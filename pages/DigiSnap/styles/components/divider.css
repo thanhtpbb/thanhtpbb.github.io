@@ -1,0 +1,11 @@
+.divider {
+  height: 1px;
+  background: #ececec;
+  margin: 0 135px;
+}
+
+@media (max-width: 1200px) {
+  .divider {
+    margin: 0 15px;
+  }
+}

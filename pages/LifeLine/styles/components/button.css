@@ -1,0 +1,31 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+
+  margin-bottom: 0;
+
+  font-weight: 900;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn-primary {
+  border-radius: 33.5px;
+  color: var(--color-light);
+  background-color: var(--color-secondary);
+}
+
+.btn:hover {
+  background-color: var(--color-primary) !important;
+}

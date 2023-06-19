@@ -1,0 +1,39 @@
+.btn {
+  /* Positioning */
+  display: inline-block;
+  vertical-align: middle;
+
+  /* Typography */
+  font-family: 'Pangolin';
+  text-align: center;
+
+  /* Visual */
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 30px;
+
+  /* Miscellaneous */
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn-primary {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-secondary-hover);
+}
+
+.btn-secondary {
+  background-color: var(--color-tertiary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-tertiary-hover);
+}

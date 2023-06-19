@@ -1,0 +1,32 @@
+#cta {
+  padding: 105px 0 319px;
+  background-image: url('../../assets/img/cta-bg.jpg');
+  background-position: bottom;
+  background-size: cover;
+  mix-blend-mode: normal;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#cta__heading {
+  margin-bottom: 41px;
+}
+
+#cta__para {
+  margin-bottom: 52px;
+}
+
+@media (max-width: 1200px) {
+  #cta {
+    padding: 43px 0 73px;
+  }
+
+  #cta__heading {
+    margin-bottom: 28px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  #cta__para {
+    margin-bottom: 36px;
+  }
+}

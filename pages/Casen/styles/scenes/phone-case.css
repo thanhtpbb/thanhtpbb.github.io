@@ -1,0 +1,26 @@
+#phone-case {
+  padding-top: 50px;
+  margin-top: 140px;
+}
+
+#phone-case-1__img {
+  background-image: url('../../assets/img/phone-case-1.png');
+}
+
+#phone-case-2__img {
+  background-image: url('../../assets/img/phone-case-2.png');
+}
+
+#phone-case-3__img {
+  background-image: url('../../assets/img/phone-case-3.png');
+}
+
+#phone-case-4__img {
+  background-image: url('../../assets/img/phone-case-4.png');
+}
+
+@media (max-width: 1200px) {
+  #phone-case {
+    margin-top: initial;
+  }
+}

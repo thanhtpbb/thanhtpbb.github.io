@@ -1,0 +1,109 @@
+/* Counter */
+#counter {
+  background-color: var(--color-primary);
+}
+
+#counter__image {
+  background-image: url('../../assets/img/count.png');
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+}
+
+#counter__content {
+  padding: 100px 0 100px 84px;
+  flex: 1;
+}
+
+#counter__heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: var(--color-white);
+}
+
+.counter__time {
+  color: var(--color-white);
+  border: 1px solid var(--color-white);
+  width: 100px;
+  height: 100px;
+  margin-bottom: 43px;
+}
+
+.counter__time:not(:first-child) {
+  margin-left: 10px;
+}
+
+.counter__time--duration {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.counter__time--number {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+#counter__button {
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media (max-width: 1200px) {
+  #counter {
+    flex-direction: column;
+  }
+
+  #counter__image {
+    height: 400px;
+    width: 100%;
+  }
+
+  #counter__content {
+    align-items: center;
+    padding-left: 0;
+    padding-top: 36px;
+    padding-bottom: 37px;
+  }
+
+  #counter__heading {
+    margin-bottom: 24px;
+  }
+
+  #counter__button {
+    width: 164px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 480px) {
+  #counter__image {
+    height: 241px;
+  }
+
+  .counter__time {
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+    width: 80.23px;
+    height: 80.23px;
+    margin-bottom: 27.77px;
+  }
+
+  .counter__time:not(:first-child) {
+    margin-left: 7.77px;
+  }
+
+  .counter__time--duration {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .counter__time--number {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

@@ -1,0 +1,25 @@
+#mac-case {
+  padding-bottom: 100px;
+}
+
+#mac-case-1__img {
+  background-image: url('../../assets/img/mac-case-1.png');
+}
+
+#mac-case-2__img {
+  background-image: url('../../assets/img/mac-case-2.png');
+}
+
+#mac-case-3__img {
+  background-image: url('../../assets/img/mac-case-3.png');
+}
+
+#mac-case-4__img {
+  background-image: url('../../assets/img/mac-case-4.png');
+}
+
+@media (max-width: 1200px) {
+  #mac-case {
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,49 @@
+#journey {
+  padding: 100px 135px 0;
+}
+
+#journey__line {
+  width: 27px;
+  height: 2px;
+  background-color: var(--color-primary);
+}
+
+#journey__paragraph {
+  width: 50%;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+#journey__img {
+  margin-top: 90px;
+  margin-bottom: -140px;
+  width: 100%;
+  padding-top: calc(100% * 472 / 1170);
+  background-image: url('../../assets/img/journey.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1200px) {
+  #journey {
+    padding: 50px 15px;
+  }
+
+  #journey__content {
+    flex-direction: column;
+  }
+
+  #journey__content > div > h2 {
+    margin-bottom: 30px;
+  }
+
+  #journey__paragraph {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  #journey__img {
+    margin-top: 40px;
+    margin-bottom: initial;
+  }
+}

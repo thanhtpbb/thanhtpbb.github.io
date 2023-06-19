@@ -1,0 +1,27 @@
+* {
+  font-family: 'WorkSans';
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #fbfbfb;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+ul li {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}

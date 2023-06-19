@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifeLine</title>
+    <link rel="icon" href="assets/icons/activity.svg" type="image/x-icon" />
+
+    <!-- Import CSS files & variables-->
+    <link rel="stylesheet" href="styles/utils/colors.css" />
+    <link rel="stylesheet" href="styles/utils/fonts.css" />
+    <link rel="stylesheet" href="styles/utils/index.css" />
+
+    <link rel="stylesheet" href="styles/components/button.css" />
+    <link rel="stylesheet" href="styles/components/typography.css" />
+    <link rel="stylesheet" href="styles/components/page-changer.css" />
+
+    <link rel="stylesheet" href="styles/scenes/about.css" />
+    <link rel="stylesheet" href="styles/scenes/business.css" />
+    <link rel="stylesheet" href="styles/scenes/statistics.css" />
+    <link rel="stylesheet" href="styles/scenes/specialists.css" />
+    <link rel="stylesheet" href="styles/scenes/testimonial.css" />
+    <link rel="stylesheet" href="styles/scenes/contact.css" />
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <!-- About -->
+    <div
+      id="about"
+      class="text-light flex flex-column text-center align-center"
+    >
+      <h1 class="fw-black uppercase">About us</h1>
+      <p>
+        Subheading expressing a meaningful message about health and team's
+        integrity
+      </p>
+    </div>
+    <!-- Business -->
+    <div class="flex flex-column" id="business">
+      <div class="flex flex-wrap" id="business__list">
+        <div class="business__item flex flex-column align-center text-center">
+          <div class="business__item--icon--wrapper">
+            <div
+              class="business__item--icon"
+              id="business__item--icon--1"
+            ></div>
+          </div>
+          <div class="business__item--name">Medication</div>
+          <div class="business__item--desc">
+            Short Description of how you can help your customer with medication
+          </div>
+        </div>
+        <div class="business__item flex flex-column align-center text-center">
+          <div class="business__item--icon--wrapper">
+            <div
+              class="business__item--icon"
+              id="business__item--icon--2"
+            ></div>
+          </div>
+          <div class="business__item--name">Heart defects</div>
+          <div class="business__item--desc">
+            Highly skilled experts and consultants in heart diseases
+          </div>
+        </div>
+        <div class="business__item flex flex-column align-center text-center">
+          <div class="business__item--icon--wrapper">
+            <div
+              class="business__item--icon"
+              id="business__item--icon--3"
+            ></div>
+          </div>
+          <div class="business__item--name">Live support 24/7</div>
+          <div class="business__item--desc">
+            Having live support increases your chance to acquire leads to your
+            store
+          </div>
+        </div>
+        <div class="business__item flex flex-column align-center text-center">
+          <div class="business__item--icon--wrapper">
+            <div
+              class="business__item--icon"
+              id="business__item--icon--4"
+            ></div>
+          </div>
+          <div class="business__item--name">First aid</div>
+          <div class="business__item--desc">
+            Provide your customers with trust whenever there is an emergency
+            case.
+          </div>
+        </div>
+      </div>
+      <div class="flex align-center" id="business__our">
+        <div id="business__our--image"></div>
+        <div id="business__our--content" class="flex flex-column">
+          <h2 class="heading text-primary">Our Business</h2>
+          <p class="paragraph text-tertiary">
+            This is where you tell the story of your medical team and service
+            for visitors to know who you are, why you do this and what value you
+            wish to deliver to your customers (presented bullet points).
+            <span style="display: block; margin-top: 20px">
+              Let's make it as impressive and professional as possible.
+            </span>
+          </p>
+          <button class="btn btn-primary">Visit us!</button>
+        </div>
+      </div>
+    </div>
+    <!-- Statistics -->
+    <div class="flex flex-wrap justify-center text-light" id="statistics">
+      <div class="statistics__item flex flex-column align-center">
+        <p class="statistics__item--number">8</p>
+        <p class="statistics__item--type">Business years</p>
+      </div>
+      <div class="statistics__item flex flex-column align-center">
+        <p class="statistics__item--number">72</p>
+        <p class="statistics__item--type">Medical Specialists</p>
+      </div>
+      <div class="statistics__item flex flex-column align-center">
+        <p class="statistics__item--number">800+</p>
+        <p class="statistics__item--type">Happy Customers</p>
+      </div>
+      <div class="statistics__item flex flex-column align-center">
+        <p class="statistics__item--number">2</p>
+        <p class="statistics__item--type">Awards</p>
+      </div>
+    </div>
+    <!-- Specialists -->
+    <div class="flex flex-column align-center justify-center" id="specialists">
+      <h2 class="heading text-primary">Our specialists</h2>
+      <div
+        id="specialists__wrapper"
+        class="flex justify-space-between align-center"
+      >
+        <button
+          class="specialists__changer btn flex"
+          id="specialists__changer--left"
+        >
+          <img src="./assets/icons/chevron_left.svg" />
+        </button>
+        <div class="flex flex-wrap" id="specialists__list">
+          <div class="specialists__item--wrapper flex">
+            <div class="specialists__item flex flex-column align-center">
+              <div
+                class="specialists__item--img"
+                id="specialists__item--img--1"
+              ></div>
+              <p class="specialists__item--name">Name</p>
+              <p class="specialists__item--title">Title - Expertise</p>
+            </div>
+          </div>
+          <div class="specialists__item--wrapper flex">
+            <div class="specialists__item flex flex-column align-center">
+              <div
+                class="specialists__item--img"
+                id="specialists__item--img--2"
+              ></div>
+              <p class="specialists__item--name">Name</p>
+              <p class="specialists__item--title">Title - Expertise</p>
+            </div>
+          </div>
+          <div class="specialists__item--wrapper flex">
+            <div class="specialists__item flex flex-column align-center">
+              <div
+                class="specialists__item--img"
+                id="specialists__item--img--3"
+              ></div>
+              <p class="specialists__item--name">Name</p>
+              <p class="specialists__item--title">Title - Expertise</p>
+            </div>
+          </div>
+          <div class="specialists__item--wrapper flex">
+            <div class="specialists__item flex flex-column align-center">
+              <div
+                class="specialists__item--img"
+                id="specialists__item--img--4"
+              ></div>
+              <p class="specialists__item--name">Name</p>
+              <p class="specialists__item--title">Title - Expertise</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="specialists__changer btn"
+          id="specialists__changer--right"
+        >
+          <img src="./assets/icons/chevron_right.svg" />
+        </button>
+      </div>
+      <div class="page-changers">
+        <div
+          class="page-changer page-changer-primary page-changer-primary--active"
+        ></div>
+        <div class="page-changer page-changer-primary"></div>
+        <div class="page-changer page-changer-primary"></div>
+      </div>
+      <button class="btn btn-primary">
+        <div id="specialists__plus" class="flex justify-center align-center">
+          <img src="./assets/icons/plus.svg" />
+        </div>
+        <p>Book an appointment</p>
+      </button>
+    </div>
+    <!-- Testimonial -->
+    <div id="testimonial" class="flex flex-column align-center text-center">
+      <h2 class="heading text-light" id="testimonial__heading">Testimonial</h2>
+      <div
+        class="testimonial__content flex flex-column align-center position-relative"
+      >
+        <div
+          class="position-absolute testimonial__changer flex justify-center align-center"
+          id="testimonial__changer--left"
+        >
+          <div
+            class="testimonial__changer-inner flex justify-center align-center"
+          >
+            <img src="./assets/icons/chevron_left.svg" />
+          </div>
+        </div>
+        <div
+          class="position-absolute testimonial__changer flex justify-center align-center"
+          id="testimonial__changer--right"
+        >
+          <div
+            class="testimonial__changer-inner flex justify-center align-center"
+          >
+            <img src="./assets/icons/chevron_right.svg" />
+          </div>
+        </div>
+        <div class="testimonial__content--img"></div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="page-changers">
+        <div
+          class="page-changer page-changer-secondary page-changer-secondary--active"
+        ></div>
+        <div class="page-changer page-changer-secondary"></div>
+        <div class="page-changer page-changer-secondary"></div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="flex justify-center" id="contact">
+      <div class="flex align-center justify-center" id="contact__inner">
+        <div id="contact__img"></div>
+        <div id="contact__form--wrapper">
+          <h2 class="heading text-primary">Contact Form</h2>
+          <form>
+            <div class="contact__form--item">
+              <input type="text" name="name" placeholder="Name" />
+            </div>
+            <div
+              class="contact__form--item flex justify-space-between"
+              id="contact__form-email-phone"
+            >
+              <input type="email" name="email" placeholder="Email" required />
+              <input type="tel" name="phone" placeholder="Phone number" />
+            </div>
+            <div class="contact__form--item">
+              <textarea
+                rows="5"
+                name="request"
+                placeholder="Your request"
+              ></textarea>
+            </div>
+            <button
+              class="btn btn-primary"
+              id="contact__form--submit"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comfy</title>
+    <link rel="icon" href="./assets/icons/hang.svg" type="image/x-icon" />
+
+    <!-- Import CSS files & variables-->
+    <link rel="stylesheet" href="styles/utils/index.css" />
+    <link rel="stylesheet" href="styles/utils/fonts.css" />
+    <link rel="stylesheet" href="styles/utils/colors.css" />
+
+    <link rel="stylesheet" href="styles/components/button.css" />
+    <link rel="stylesheet" href="styles/components/typography.css" />
+
+    <link rel="stylesheet" href="styles/scenes/promotion.css" />
+    <link rel="stylesheet" href="styles/scenes/benefits.css" />
+    <link rel="stylesheet" href="styles/scenes/deal.css" />
+    <link rel="stylesheet" href="styles/scenes/collection.css" />
+    <link rel="stylesheet" href="styles/scenes/counter.css" />
+    <link rel="stylesheet" href="styles/scenes/testimonial.css" />
+    <link rel="stylesheet" href="styles/scenes/sign.css" />
+    <link rel="stylesheet" href="styles/scenes/cta.css" />
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="section" id="promotion">
+        <div class="flex flex-column" id="promotion__content">
+          <h2 id="promotion__heading" class="main-heading">
+            Your Cyber <span style="display: block"> Monday Offer</span>
+          </h2>
+          <p id="promotion__description">
+            A supporting description under the big headline. Entice your
+            visitors to keep reading the high level details of your offering
+          </p>
+          <button id="promotion__button" class="btn btn-primary">
+            Shop Now
+          </button>
+        </div>
+      </div>
+      <div class="section" id="benefits">
+        <div class="flex flex-column align-center">
+          <h2 class="title" id="benefits__heading">
+            Here are some of the benefits of your offer
+          </h2>
+          <ul class="flex" id="benefits__list--wrapper">
+            <li class="flex benefit__item">
+              <img class="benefit__icon" src="assets/icons/ben1.svg" />
+              <div class="flex flex-column">
+                <h5 class="benefit__title">Benefit 1</h5>
+                <p class="benefit__desc">
+                  This is where you write about your wonderful deals for this
+                  BFCM season
+                </p>
+              </div>
+            </li>
+            <li class="flex benefit__item">
+              <img class="benefit__icon" src="assets/icons/ben2.svg" />
+              <div class="flex flex-column">
+                <h5 class="benefit__title">Benefit 2</h5>
+                <p class="benefit__desc">
+                  Free-shipping for example is a very attractive offer that will
+                  catch your customers' attention
+                </p>
+              </div>
+            </li>
+            <li class="flex benefit__item">
+              <img class="benefit__icon" src="assets/icons/ben3.svg" />
+              <div class="flex flex-column">
+                <h5 class="benefit__title">Benefit 3</h5>
+                <p class="benefit__desc">
+                  Worldwide shipping is a huge plus that would drive sales to
+                  your store
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section flex" id="deal">
+        <div class="flex flex-column" id="deal__content">
+          <h2 id="deal__heading" class="main-heading">
+            Cyber Monday <span style="display: block"> Flash Deal</span>
+          </h2>
+          <p id="deal_desc">
+            Buy 2 sweater
+            <span style="display: block">get 1 pair of socks for 60$</span>
+          </p>
+          <button id="deal__button" class="btn btn-primary">Shop Now</button>
+        </div>
+        <div id="deal__shirt"></div>
+      </div>
+      <div class="section flex flex-column align-center" id="collection">
+        <p id="collection__desc">Sale up to 60%</p>
+        <h2 class="title" id="collection__heading">
+          Featured Sales Collection
+        </h2>
+        <div class="flex flex-wrap">
+          <li class="collection__item flex flex-column align-center">
+            <div class="collection__item--bg flex justify-center align-center">
+              <img
+                class="collection__item--image"
+                src="./assets/img/product-1.png"
+              />
+            </div>
+            <p class="collection__item--name">Product name</p>
+            <div class="collection__item--prices flex justify-center">
+              <p class="collection__item--price">$55.00</p>
+              <p class="collection__item--sale-price">$30.00</p>
+            </div>
+            <button class="btn btn-secondary collection__item--button">
+              Shop Now
+            </button>
+          </li>
+          <li class="collection__item flex flex-column align-center">
+            <div class="collection__item--bg flex justify-center align-center">
+              <img
+                class="collection__item--image"
+                src="./assets/img/product-2.png"
+              />
+            </div>
+            <p class="collection__item--name">Product name</p>
+            <div class="collection__item--prices flex justify-center">
+              <p class="collection__item--price">$55.00</p>
+              <p class="collection__item--sale-price">$30.00</p>
+            </div>
+            <button class="btn btn-secondary collection__item--button">
+              Shop Now
+            </button>
+          </li>
+          <li class="collection__item flex flex-column align-center">
+            <div class="collection__item--bg flex justify-center align-center">
+              <img
+                class="collection__item--image"
+                src="./assets/img/product-3.jpg"
+              />
+            </div>
+            <p class="collection__item--name">Product name</p>
+            <div class="collection__item--prices flex justify-center">
+              <p class="collection__item--price">$55.00</p>
+              <p class="collection__item--sale-price">$30.00</p>
+            </div>
+            <button class="btn btn-secondary collection__item--button">
+              Shop Now
+            </button>
+          </li>
+          <li class="collection__item flex flex-column align-center">
+            <div class="collection__item--bg flex justify-center align-center">
+              <img
+                class="collection__item--image"
+                src="./assets/img/product-4.png"
+              />
+            </div>
+            <p class="collection__item--name">Product name</p>
+            <div class="collection__item--prices flex justify-center">
+              <p class="collection__item--price">$55.00</p>
+              <p class="collection__item--sale-price">$30.00</p>
+            </div>
+            <button class="btn btn-secondary collection__item--button">
+              Shop Now
+            </button>
+          </li>
+          <li class="collection__item flex flex-column align-center">
+            <div class="collection__item--bg flex justify-center align-center">
+              <img
+                class="collection__item--image"
+                src="./assets/img/product-5.png"
+              />
+            </div>
+            <p class="collection__item--name">Product name</p>
+            <div class="collection__item--prices flex justify-center">
+              <p class="collection__item--price">$55.00</p>
+              <p class="collection__item--sale-price">$30.00</p>
+            </div>
+            <button class="btn btn-secondary collection__item--button">
+              Shop Now
+            </button>
+          </li>
+          <li class="collection__item flex flex-column align-center">
+            <div class="collection__item--bg flex justify-center align-center">
+              <img
+                class="collection__item--image"
+                src="./assets/img/product-6.png"
+              />
+            </div>
+            <p class="collection__item--name">Product name</p>
+            <div class="collection__item--prices flex justify-center">
+              <p class="collection__item--price">$55.00</p>
+              <p class="collection__item--sale-price">$30.00</p>
+            </div>
+            <button class="btn btn-secondary collection__item--button">
+              Shop Now
+            </button>
+          </li>
+          <li class="collection__item flex flex-column align-center">
+            <div class="collection__item--bg flex justify-center align-center">
+              <img
+                class="collection__item--image"
+                src="./assets/img/product-7.jpg"
+              />
+            </div>
+            <p class="collection__item--name">Product name</p>
+            <div class="collection__item--prices flex justify-center">
+              <p class="collection__item--price">$55.00</p>
+              <p class="collection__item--sale-price">$30.00</p>
+            </div>
+            <button class="btn btn-secondary collection__item--button">
+              Shop Now
+            </button>
+          </li>
+          <li class="collection__item flex flex-column align-center">
+            <div class="collection__item--bg flex justify-center align-center">
+              <img
+                class="collection__item--image"
+                src="./assets/img/product-8.png"
+              />
+            </div>
+            <p class="collection__item--name">Product name</p>
+            <div class="collection__item--prices flex justify-center">
+              <p class="collection__item--price">$55.00</p>
+              <p class="collection__item--sale-price">$30.00</p>
+            </div>
+            <button class="btn btn-secondary collection__item--button">
+              Shop Now
+            </button>
+          </li>
+        </div>
+      </div>
+      <div class="section flex" id="counter">
+        <div class="counter__item" id="counter__image"></div>
+        <div class="counter__item flex flex-column" id="counter__content">
+          <h2 class="title" id="counter__heading">Time is Running Out!</h2>
+          <div class="flex">
+            <div
+              class="counter__time flex flex-column justify-center align-center"
+            >
+              <p class="counter__time--duration">22</p>
+              <p class="counter__time--number">Days</p>
+            </div>
+            <div
+              class="counter__time flex flex-column justify-center align-center"
+            >
+              <p class="counter__time--duration">14</p>
+              <p class="counter__time--number">Hours</p>
+            </div>
+            <div
+              class="counter__time flex flex-column justify-center align-center"
+            >
+              <p class="counter__time--duration">23</p>
+              <p class="counter__time--number">Mins</p>
+            </div>
+            <div
+              class="counter__time flex flex-column justify-center align-center"
+            >
+              <p class="counter__time--duration">12</p>
+              <p class="counter__time--number">Secs</p>
+            </div>
+          </div>
+          <button id="counter__button" class="btn btn-secondary">
+            Shop Now
+          </button>
+        </div>
+      </div>
+      <div
+        class="section flex flex-column justify-center align-center"
+        id="testimonials"
+      >
+        <h2 class="title" id="testimonials__heading">Testimonials</h2>
+        <p id="testimonials__desc">
+          This is the place where you let your customers do the talk for you.
+        </p>
+        <p class="testimonials__comment text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <p class="testimonials__name text-center">Caelin Spears</p>
+        <div class="testimonials__avt"></div>
+        <div class="flex justify-center">
+          <div class="testimonials__dot testimonials__dot--active"></div>
+          <div class="testimonials__dot"></div>
+          <div class="testimonials__dot"></div>
+        </div>
+      </div>
+      <div
+        class="section flex flex-column justify-center align-center"
+        id="sign"
+      >
+        <h2 class="title" id="sign__heading">Sign up now</h2>
+        <p id="sign__desc">
+          Try to get emails from customers by giving them good deals, for
+          example: free shipping code
+        </p>
+        <form class="flex" id="sign__form">
+          <input
+            type="email"
+            name="email"
+            id="sign__form--input"
+            placeholder="Your Email"
+          />
+          <button id="sign__form--button" class="btn btn-primary" type="submit">
+            Sign Up
+          </button>
+        </form>
+      </div>
+      <div class="flex section" id="CTA">
+        <div class="CTA__item flex flex-column" id="CTA__content">
+          <h2 class="title" id="CTA__heading">
+            End with one final
+            <span style="display: block">call to action</span>
+          </h2>
+          <p id="CTA__para">
+            This is your last shot at converting someone. Remind them about the
+            benefits of your offer and encourage them to act now.
+          </p>
+          <button id="CTA__button" class="btn btn-primary">Shop Now</button>
+        </div>
+        <div class="CTA__item" id="CTA__image"></div>
+      </div>
+    </main>
+  </body>
+</html>

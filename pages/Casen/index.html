@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casen</title>
+    <link rel="icon" href="assets/icons/mobile.svg" type="image/x-icon" />
+
+    <!-- Import CSS files & variables-->
+    <link rel="stylesheet" href="styles/utils/colors.css" />
+    <link rel="stylesheet" href="styles/utils/fonts.css" />
+    <link rel="stylesheet" href="styles/utils/index.css" />
+
+    <link rel="stylesheet" href="styles/components/typography.css" />
+    <link rel="stylesheet" href="styles/components/button.css" />
+    <link rel="stylesheet" href="styles/components/select.css" />
+    <link rel="stylesheet" href="styles/components/product-list.css" />
+    <link rel="stylesheet" href="styles/components/product.css" />
+
+    <link rel="stylesheet" href="styles/scenes/landing.css" />
+    <link rel="stylesheet" href="styles/scenes/free-ship.css" />
+    <link rel="stylesheet" href="styles/scenes/journey.css" />
+    <link rel="stylesheet" href="styles/scenes/phone-case.css" />
+    <link rel="stylesheet" href="styles/scenes/airpod-case.css" />
+    <link rel="stylesheet" href="styles/scenes/customized-case.css" />
+    <link rel="stylesheet" href="styles/scenes/mac-case.css" />
+    <link rel="stylesheet" href="styles/scenes/subscribe.css" />
+    <link rel="stylesheet" href="styles/scenes/journey.css" />
+    <link rel="stylesheet" href="styles/scenes/featured.css" />
+    <link rel="stylesheet" href="styles/scenes/testimonial.css" />
+    <link rel="stylesheet" href="styles/scenes/ig.css" />
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Landing -->
+      <div id="landing">
+        <h1 id="landing__heading">Fall season sale - 25% off</h1>
+        <p class="light-text" id="landing__paragraph">
+          Buy 1 phone case - get 1 discount 25% code for the next product
+        </p>
+        <button id="landing__button" class="btn btn-primary">Shop now</button>
+      </div>
+      <!-- Free ship -->
+      <div id="free-ship" class="text-center">
+        <p id="free-ship__para" class="uppercase light-text">
+          Free 3 days shipping for 25$+ bill
+        </p>
+      </div>
+      <!-- Journey -->
+      <div id="journey" class="flex flex-column bg-primary">
+        <div id="journey__content" class="flex justify-space-between">
+          <div class="flex flex-column justify-space-between">
+            <h2>Our journey</h2>
+            <div class="flex align-center gap-5">
+              <div id="journey__line"></div>
+              <h3>Since 2014</h3>
+            </div>
+          </div>
+          <p class="secondary-text" id="journey__paragraph">
+            Casén, a dedication to transforming self-identity into a customized
+            artistic outlet, refines the art of custom leather products through
+            world-class fabrics and design to produce inspiring statement
+            objects.
+          </p>
+        </div>
+        <div id="journey__img"></div>
+      </div>
+      <!-- Phone case -->
+      <div id="phone-case" class="product-list-container flex flex-column">
+        <div class="product-list-header">
+          <h2>Phone case</h2>
+          <div class="flex gap-10">
+            <h3>See all phone cases</h3>
+            <img src="./assets/icons/arrow-right.svg" />
+          </div>
+        </div>
+        <div class="product-list-container__inner">
+          <div class="product product__column">
+            <div class="product__img" id="phone-case-1__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="phone-case-2__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="phone-case-3__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="phone-case-4__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Airpod case -->
+      <div id="airpod-case" class="product-list-container flex flex-column">
+        <div class="product-list-header">
+          <h2>Airpod case</h2>
+          <div class="flex gap-10">
+            <h3>See all airpod cases</h3>
+            <img src="./assets/icons/arrow-right.svg" />
+          </div>
+        </div>
+        <div class="product-list-container__inner">
+          <div class="product product__column">
+            <div class="product__img" id="airpod-case-1__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="airpod-case-2__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="airpod-case-3__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="airpod-case-4__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Customized case -->
+      <div id="customized-case" class="product-list-container flex flex-column">
+        <div class="product-list-header">
+          <h2>Customized case</h2>
+          <div class="flex gap-10">
+            <h3>See all customized cases</h3>
+            <img src="./assets/icons/arrow-right.svg" />
+          </div>
+        </div>
+        <div class="product-list-container__inner">
+          <div class="product product__column">
+            <div class="product__img" id="customized-case-1__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="customized-case-2__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="customized-case-3__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="customized-case-4__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Mac case -->
+      <div id="mac-case" class="product-list-container flex flex-column">
+        <div class="product-list-header">
+          <h2>Mac case</h2>
+          <div class="flex gap-10">
+            <h3>See all mac cases</h3>
+            <img src="./assets/icons/arrow-right.svg" />
+          </div>
+        </div>
+        <div class="product-list-container__inner">
+          <div class="product product__column">
+            <div class="product__img" id="mac-case-1__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="mac-case-2__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="mac-case-3__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="mac-case-4__img"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Featured product -->
+      <div id="featured" class="product-list-container bg-primary flex">
+        <div class="flex flex-wrap product-list-container__inner">
+          <div
+            class="flex text-center align-center justify-center featured__main--img product__column"
+          >
+            <h2 class="light-text" id="featured__heading">Featured Product</h2>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="featured__product--1"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="featured__product--2"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+          <div class="product product__column">
+            <div class="product__img" id="featured__product--3"></div>
+            <p class="product__name">Product Name</p>
+            <p class="product__price">$50.00</p>
+            <div class="position-relative">
+              <select class="product__select" name="variant">
+                <option value="var1">Variant 1</option>
+                <option value="var2">Variant 2</option>
+                <option value="var3">Variant 3</option>
+              </select>
+              <img
+                src="./assets/icons/chevron-down.svg"
+                class="position-absolute product__select--icon"
+              />
+            </div>
+            <button class="btn btn-primary product__button">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial -->
+      <div id="testimonial" class="flex justify-center">
+        <div
+          id="testimonial__inner"
+          class="flex flex-column align-center text-center position-relative"
+        >
+          <div
+            id="testimonial__icon--left"
+            class="position-absolute testimonial__icon"
+          >
+            <img src="./assets/icons/chevron-left.svg" />
+          </div>
+          <h2 id="testimonial__heading" class="light-text">What people say</h2>
+          <p class="testimonial__comment">
+            Not only about the design but the quality. Never Have I ever found
+            such an awesome case
+          </p>
+          <div class="testimonial__avt"></div>
+          <p class="testimonial__name light-text">Rhona Bowers</p>
+          <div class="testimonial__circles flex">
+            <div class="testimonial__circle flex justify-center align-center">
+              <img
+                class="testimonial__circle--select"
+                src="./assets/icons/circle-selected.svg"
+              />
+            </div>
+            <div class="testimonial__circle"></div>
+            <div class="testimonial__circle"></div>
+          </div>
+          <div
+            id="testimonial__icon--right"
+            class="position-absolute testimonial__icon"
+          >
+            <img src="./assets/icons/chevron-right.svg" />
+          </div>
+        </div>
+      </div>
+      <!-- Subscribe -->
+      <div id="subscribe" class="flex bg-primary justify-center">
+        <div
+          id="subscribe__--inner"
+          class="flex flex-column align-center text-center"
+        >
+          <h2 id="subscribe__heading">BE THE FIRST</h2>
+          <p id="subscribe__paragraph" class="secondary-text">
+            Sign up for latest news, sales and offers and get 10% off straight
+            to your inbox.
+          </p>
+          <div id="subscribe__form" class="flex">
+            <input id="subscribe__input" placeholder="Your Email" />
+            <button class="btn" id="subscribe__submit">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <!-- Instagram -->
+      <div id="ig" class="flex flex-column">
+        <div id="ig__cta" class="flex justify-center">
+          <div id="ig__cta--inner" class="flex align-center">
+            <img id="ig__cta-icon" src="./assets/icons/ig.svg" />
+            <p id="ig__cta-para">Follow Us on Instagram @Casén</p>
+          </div>
+        </div>
+        <div id="ig__imgs" class="flex flex-wrap">
+          <div class="ig__img" id="ig__img--1"></div>
+          <div class="ig__img" id="ig__img--2"></div>
+          <div class="ig__img" id="ig__img--3"></div>
+          <div class="ig__img" id="ig__img--4"></div>
+          <div class="ig__img" id="ig__img--5"></div>
+          <div class="ig__img" id="ig__img--6"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

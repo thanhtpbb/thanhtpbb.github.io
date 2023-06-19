@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maize</title>
+    <link rel="icon" href="assets/icons/cup.svg" type="image/x-icon" />
+
+    <!-- Import CSS files & variables-->
+    <link rel="stylesheet" href="styles/utils/colors.css" />
+    <link rel="stylesheet" href="styles/utils/fonts.css" />
+    <link rel="stylesheet" href="styles/utils/index.css" />
+
+    <link rel="stylesheet" href="styles/components/button.css" />
+    <link rel="stylesheet" href="styles/components/typography.css" />
+    <link rel="stylesheet" href="styles/components/background.css" />
+    <link rel="stylesheet" href="styles/components/changer.css" />
+
+    <link rel="stylesheet" href="styles/scenes/promotion.css" />
+    <link rel="stylesheet" href="styles/scenes/benefits.css" />
+    <link rel="stylesheet" href="styles/scenes/counter.css" />
+    <link rel="stylesheet" href="styles/scenes/collection.css" />
+    <link rel="stylesheet" href="styles/scenes/testimonials.css" />
+    <link rel="stylesheet" href="styles/scenes/products.css" />
+    <link rel="stylesheet" href="styles/scenes/blogs.css" />
+    <link rel="stylesheet" href="styles/scenes/cta.css" />
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="section flex flex-column bg-primary" id="promotion">
+        <div id="promotion__heading" class="tertiary-text flex flex-column">
+          <h2 id="promotion__heading--1">Thanksgiving</h2>
+          <h1 id="promotion__heading--2">Sale off season</h1>
+        </div>
+        <p id="promotion__paragraph" class="body-text">
+          Subheading expressing a meaningful message for Thanksgiving and gift
+          giving
+        </p>
+        <button id="promotion__button" class="btn btn-primary">Shop All</button>
+      </div>
+      <div
+        class="section flex flex-column align-center text-center"
+        id="benefits"
+      >
+        <div id="benefits__list" class="flex">
+          <div class="benefits__item flex flex-column align-center">
+            <img class="benefits__icon" src="./assets/img/benefit-1.png" />
+            <div class="flex benefits__texts flex-column">
+              <p class="benefits__name primary-text fw-medium">Benefit 1</p>
+              <p>
+                This is where you write about your exciting discount in this
+                season
+              </p>
+            </div>
+          </div>
+          <div class="benefits__item flex flex-column align-center">
+            <img class="benefits__icon" src="./assets/img/benefit-2.png" />
+            <div class="flex benefits__texts flex-column">
+              <p class="benefits__name primary-text fw-medium">Benefit 2</p>
+              <p>
+                Free gift wrapping would be a nice added value to your customer
+                in this gift-giving season
+              </p>
+            </div>
+          </div>
+          <div class="benefits__item flex flex-column align-center">
+            <img class="benefits__icon" src="./assets/img/benefit-3.png" />
+            <div class="flex benefits__texts flex-column">
+              <p class="benefits__name primary-text fw-medium">Benefit 3</p>
+              <p>Make your customers more assured with return policy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section flex flex-column justify-center" id="collection">
+        <h2 id="collection__heading" class="text-center tertiary-text">
+          Thanksgiving Collection
+        </h2>
+        <div id="collection__container" class="flex">
+          <div
+            id="collection__item--1"
+            class="collection__item flex flex-column"
+          >
+            <h3 class="uppercase light-text">
+              Sale off: <span style="display: block">Up to 50%</span>
+            </h3>
+            <p class="secondary-text collection__item--sub">Collection</p>
+            <button class="btn btn-secondary collection__item--button">
+              Shop Now
+            </button>
+          </div>
+          <div
+            id="collection__item--2"
+            class="collection__item flex flex-column"
+          >
+            <h3 class="uppercase light-text">
+              Most <span style="display: block">valued</span>
+            </h3>
+            <p class="secondary-text collection__item--sub">Bundles</p>
+            <button
+              class="primary-text btn btn-secondary collection__item--button"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="flex text-center" id="counter">
+        <div id="counter__container--left"></div>
+        <div
+          id="counter__container--right"
+          class="flex flex-column align-center body-text"
+        >
+          <div id="counter__img"></div>
+          <p id="counter__name">Product name</p>
+          <div id="counter__img--prices" class="flex justify-center">
+            <p id="counter__img--price" class="line-through">55.00$</p>
+            <p id="counter__img--sale-price" class="fw-semibold">30.00$</p>
+          </div>
+          <div id="counter__list" class="flex">
+            <div class="counter__item flex flex-column justify-center">
+              <h3 class="counter__number">22</h3>
+              <p class="counter__time" class="tertiary-text">Days</p>
+            </div>
+            <div class="counter__item flex flex-column justify-center">
+              <h3 class="counter__number">14</h3>
+              <p class="counter__time">Hours</p>
+            </div>
+            <div class="counter__item flex flex-column justify-center">
+              <h3 class="counter__number">06</h3>
+              <p class="counter__time">Mins</p>
+            </div>
+            <div class="counter__item flex flex-column justify-center">
+              <h3 class="counter__number">30</h3>
+              <p class="counter__time">Secs</p>
+            </div>
+          </div>
+          <button class="btn btn-secondary" id="counter__item--button">
+            Add To Cart
+          </button>
+        </div>
+      </div>
+      <div class="section flex flex-column" id="products">
+        <div
+          id="products__heading"
+          class="flex justify-space-between align-end"
+        >
+          <div
+            id="products__heading--texts"
+            class="flex flex-column tertiary-text"
+          >
+            <h2>Trending</h2>
+            <h1>Products</h1>
+          </div>
+          <div class="changers flex align-space-between">
+            <div class="changer flex align-center justify-center">
+              <img src="./assets/icons/polygon-left-pro.svg" />
+            </div>
+            <div class="changer flex align-center justify-center">
+              <img src="./assets/icons/polygon-right-pro.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap" id="products__list">
+          <div class="flex flex-column products__product align-center">
+            <div class="products__image" id="products__image--1"></div>
+            <p class="products__name text-center body-text">Product Name</p>
+            <div class="products__img--prices flex justify-center body-text">
+              <p class="products__img--price line-through">55.00$</p>
+              <p class="products__img--sale-price fw-semibold">30.00$</p>
+            </div>
+            <div class="flex products__buttons">
+              <button class="btn btn-secondary products__button">
+                More info
+              </button>
+              <button class="btn btn-secondary products__button">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="flex flex-column products__product align-center">
+            <div class="products__image" id="products__image--2"></div>
+            <p class="products__name text-center body-text">Product Name</p>
+            <div class="products__img--prices flex justify-center body-text">
+              <p class="products__img--price line-through">55.00$</p>
+              <p class="products__img--sale-price fw-semibold">30.00$</p>
+            </div>
+            <div class="flex products__buttons">
+              <button class="btn btn-secondary products__button">
+                More info
+              </button>
+              <button class="btn btn-secondary products__button">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="flex flex-column products__product align-center">
+            <div class="products__image" id="products__image--3"></div>
+            <p class="products__name text-center body-text">Product Name</p>
+            <div class="products__img--prices flex justify-center body-text">
+              <p class="products__img--price line-through">55.00$</p>
+              <p class="products__img--sale-price fw-semibold">30.00$</p>
+            </div>
+            <div class="flex products__buttons">
+              <button class="btn btn-secondary products__button">
+                More info
+              </button>
+              <button class="btn btn-secondary products__button">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+          <div class="flex flex-column products__product align-center">
+            <div class="products__image" id="products__image--4"></div>
+            <p class="products__name text-center body-text">Product Name</p>
+            <div class="products__img--prices flex justify-center body-text">
+              <p class="products__img--price line-through">55.00$</p>
+              <p class="products__img--sale-price fw-semibold">30.00$</p>
+            </div>
+            <div class="flex products__buttons">
+              <button class="btn btn-secondary products__button">
+                More info
+              </button>
+              <button class="btn btn-secondary products__button">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="section flex flex-column bg-primary align-center text-center position-relative"
+        id="testimonials"
+      >
+        <h2 class="secondary-text" id="testimonials__heading">Testimonials</h2>
+        <img
+          id="testimonials__change--1"
+          class="testimonials__change position-absolute"
+          src="./assets/icons/polygon-left.svg"
+        />
+        <div class="flex">
+          <div class="flex flex-column align-center">
+            <p class="light-text testimonials__comment">
+              The convenience of online shopping is seeing what other customers
+              saying. Place a short paragraph show how people satisfied with
+              your product here
+            </p>
+            <p class="light-text uppercase">Customer's name</p>
+          </div>
+        </div>
+        <div class="testimonials__avt"></div>
+        <img
+          id="testimonials__change--2"
+          class="testimonials__change position-absolute"
+          src="./assets/icons/polygon-right.svg"
+        />
+      </div>
+      <div class="section flex flex-column" id="blogs">
+        <div id="blogs__heading" class="flex justify-space-between align-end">
+          <div
+            id="blogs__heading--texts"
+            class="flex flex-column tertiary-text"
+          >
+            <h1>Our Latest</h1>
+            <h2>Blogs</h2>
+          </div>
+          <div class="changers flex align-space-between">
+            <div class="changer flex align-center justify-center">
+              <img src="./assets/icons/polygon-left-pro.svg" />
+            </div>
+            <div class="changer flex align-center justify-center">
+              <img src="./assets/icons/polygon-right-pro.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="flex" id="blogs__list">
+          <div
+            class="blogs__blog body-text flex flex-column text-left align-start"
+          >
+            <div class="blogs__image" id="blogs__image--1"></div>
+            <div class="blogs__heading fw-semibold">
+              Thanksgiving Home Decor 2020
+            </div>
+            <div class="blogs__para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna...
+            </div>
+            <button class="btn btn-secondary blogs__button">See More</button>
+          </div>
+          <div
+            class="blogs__blog body-text flex flex-column text-left align-start"
+          >
+            <div class="blogs__image" id="blogs__image--2"></div>
+            <div class="blogs__heading fw-semibold">
+              Best gift ideas in Thanksgiving
+            </div>
+            <div class="blogs__para">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat...
+            </div>
+            <button class="btn btn-secondary blogs__button">See More</button>
+          </div>
+          <div
+            class="blogs__blog body-text flex flex-column text-left align-start"
+          >
+            <div class="blogs__image" id="blogs__image--3"></div>
+            <div class="blogs__heading fw-semibold">
+              Home Decoration Gallery
+            </div>
+            <div class="blogs__para">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint...
+            </div>
+            <button class="btn btn-secondary blogs__button">See More</button>
+          </div>
+        </div>
+      </div>
+      <div class="section flex light-text" id="cta">
+        <div id="cta__left" class="flex flex-column">
+          <h2>Your</h2>
+          <h1>Promotion</h1>
+          <p id="cta__para" class="light-text">
+            This is your last shot at converting someone. Remind them about the
+            benefits of your offer and encourage them to act now.
+          </p>
+          <button class="btn btn-secondary" id="cta__button">Shop All</button>
+        </div>
+        <div id="cta__right"></div>
+      </div>
+    </main>
+  </body>
+</html>

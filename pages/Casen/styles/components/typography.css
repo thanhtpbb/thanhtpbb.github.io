@@ -1,0 +1,80 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 44px;
+  color: var(--color-light);
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 14px;
+  line-height: 15px;
+}
+
+/*  */
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+/*  */
+.light-text {
+  color: var(--color-light);
+}
+
+.primary-text {
+  color: var(--color-primary);
+}
+
+.secondary-text {
+  color: var(--color-secondary);
+}
+
+.tertiary-text {
+  color: var(--color-tertiary);
+}
+
+/*  */
+.bg-primary {
+  background-color: var(--color-bg);
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 33px;
+  }
+}

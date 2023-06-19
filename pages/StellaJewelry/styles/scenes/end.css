@@ -1,0 +1,7 @@
+#end {
+  width: 100%;
+  padding-top: calc(100% / 1437 * 837);
+  background-image: url('../../assets/img/end-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}

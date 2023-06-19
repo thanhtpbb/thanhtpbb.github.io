@@ -1,0 +1,167 @@
+#specialists {
+  padding: 100px 135px 80.69px;
+}
+
+#specialists > h2 {
+  margin-bottom: 64px;
+}
+
+#specialists__wrapper {
+  margin-bottom: 61px;
+  width: 100%;
+}
+
+.specialists__changer {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--color-secondary);
+}
+
+#specialists__changer--left {
+  padding: 14px 18px 12.96px 14px;
+}
+
+#specialists__changer--right {
+  padding: 14px 14px 12.96px 18px;
+}
+
+#specialists__list {
+  width: 100%;
+  margin: 0 30px;
+}
+
+.specialists__item--wrapper {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.specialists__item {
+  width: 100%;
+}
+
+.specialists__item--img {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: calc(100% / 224.53 * 269.38);
+}
+
+#specialists__item--img--1 {
+  background-image: url('../../assets/img/spe1.jpg');
+}
+
+#specialists__item--img--2 {
+  background-image: url('../../assets/img/spe2.jpg');
+}
+
+#specialists__item--img--3 {
+  background-image: url('../../assets/img/spe3.jpg');
+}
+
+#specialists__item--img--4 {
+  background-image: url('../../assets/img/spe4.jpg');
+}
+
+.specialists__item--name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: var(--color-primary);
+  margin: 24px 0 4px;
+}
+
+.specialists__item--title {
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--color-tertiary);
+}
+
+#specialists > button {
+  margin-top: 74px;
+  display: flex !important;
+  align-items: center;
+  height: 54.31px;
+  padding: 0 8px;
+}
+
+#specialists__plus {
+  width: 42.15px;
+  height: 42.15px;
+  background-color: var(--color-light);
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#specialists > button > p {
+  padding-right: 12px;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+@media (max-width: 1200px) {
+  #specialists {
+    padding: 51px 7.5px 55px;
+  }
+
+  #specialists > h2 {
+    margin-bottom: 32px;
+  }
+
+  #specialists__wrapper {
+    margin-bottom: 0;
+  }
+
+  .specialists__changer {
+    display: none;
+  }
+
+  #specialists__list {
+    margin: 0;
+  }
+
+  .specialists__item--wrapper {
+    padding: 0 7.5px;
+    width: 50%;
+    margin-bottom: 29px;
+  }
+
+  .specialists__item--name {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 17.52 0 4px;
+  }
+
+  .specialists__item--title {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  #specialists > button {
+    margin-top: 31px;
+    height: 40px;
+  }
+
+  #specialists__plus {
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+  }
+
+  #specialists > button > p {
+    padding-right: 6px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (min-width: 1441px) {
+  #specialists__list {
+    justify-content: center;
+  }
+
+  .specialists__item--wrapper {
+    max-width: 224.53px;
+  }
+}

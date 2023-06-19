@@ -1,0 +1,123 @@
+/* Collection */
+#collection {
+  background-color: var(--color-background);
+  padding: 93px 0 84px;
+  text-align: center;
+}
+
+#collection__desc {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: var(--color-primary);
+  text-transform: uppercase;
+}
+
+#collection__heading {
+  margin: 12px 0 80px;
+  color: var(--color-secondary);
+}
+
+.collection__item {
+  flex: 1 0 25%;
+  margin-bottom: 66px;
+}
+
+.collection__item--bg {
+  width: 270px;
+  height: 340px;
+  background-color: var(--color-white);
+  margin-bottom: 30px;
+}
+
+.collection__item--name {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+
+.collection__item--prices {
+  margin-bottom: 20px;
+}
+
+.collection__item--price {
+  color: var(--color-black);
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration-line: line-through;
+
+  margin-right: 16px;
+}
+
+.collection__item--sale-price {
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--color-secondary);
+}
+
+.collection__item--button {
+  width: 176px;
+  height: 50px;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.collection__item--image {
+  max-width: calc(100% - 15px);
+}
+
+@media (max-width: 1200px) {
+  #collection {
+    padding: 56px 0 5px;
+  }
+
+  #collection__heading {
+    margin: 12px 0 48px;
+  }
+
+  #collection__desc {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .collection__item {
+    margin-bottom: 45px;
+  }
+
+  .collection__item--bg {
+    width: 165px;
+    height: 207.78px;
+    margin-bottom: 18px;
+  }
+
+  .collection__item--name {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 4px;
+  }
+
+  .collection__item--prices {
+    margin-bottom: 14px;
+  }
+
+  .collection__item--price {
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-right: 8px;
+  }
+
+  .collection__item--sale-price {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .collection__item--button {
+    width: 107.56px;
+    height: 35px;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigiSnap</title>
+    <link rel="icon" href="assets/icons/camera.svg" type="image/x-icon" />
+
+    <!-- Import CSS files & variables-->
+    <link rel="stylesheet" href="styles/utils/colors.css" />
+    <link rel="stylesheet" href="styles/utils/fonts.css" />
+    <link rel="stylesheet" href="styles/utils/index.css" />
+
+    <link rel="stylesheet" href="styles/components/button.css" />
+    <link rel="stylesheet" href="styles/components/typography.css" />
+    <link rel="stylesheet" href="styles/components/divider.css" />
+
+    <link rel="stylesheet" href="styles/scenes/landing.css" />
+    <link rel="stylesheet" href="styles/scenes/product.css" />
+    <link rel="stylesheet" href="styles/scenes/awards.css" />
+    <link rel="stylesheet" href="styles/scenes/overview.css" />
+    <link rel="stylesheet" href="styles/scenes/features.css" />
+    <link rel="stylesheet" href="styles/scenes/size.css" />
+    <link rel="stylesheet" href="styles/scenes/preview.css" />
+    <link rel="stylesheet" href="styles/scenes/spects.css" />
+    <link rel="stylesheet" href="styles/scenes/testimonial.css" />
+    <link rel="stylesheet" href="styles/scenes/related.css" />
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Landing -->
+      <div class="position-relative text-center" id="landing">
+        <h1 class="light-text">More than a camera</h1>
+        <div id="arrows" class="flex flex-column position-absolute">
+          <img class="landing__arrow" src="./assets/icons/arrow-down.svg" />
+          <img class="landing__arrow" src="./assets/icons/arrow-down.svg" />
+        </div>
+      </div>
+      <!-- Product -->
+      <div class="flex justify-space-between" id="product">
+        <div id="product__details">
+          <h2 class="primary-text" id="product__name">Canon EOS M6 Mark II</h2>
+          <div
+            class="flex justify-space-between align-center product__details--numbers"
+          >
+            <p id="product__price" class="primary-text justify-space-between">
+              $15,995.00
+            </p>
+            <div class="flex">
+              <div id="product__ratings">
+                <img src="./assets/icons/star.svg" />
+                <img src="./assets/icons/star.svg" />
+                <img src="./assets/icons/star.svg" />
+                <img src="./assets/icons/star.svg" />
+                <img src="./assets/icons/star-half.svg" />
+              </div>
+              <p id="product__reviews" class="secondary-text">(231 reviews)</p>
+            </div>
+          </div>
+          <div
+            class="flex flex-wrap justify-space-between"
+            id="product__quantity--wrapper"
+          >
+            <div
+              id="product__quantity-selector"
+              class="flex justify-space-between align-center"
+            >
+              <p class="product__quantity-selector--text secondary-text">-</p>
+              <p class="product__quantity-selector--text secondary-text">1</p>
+              <p class="product__quantity-selector--text secondary-text">+</p>
+            </div>
+            <button class="btn btn-primary" id="product__quantity--button">
+              Add to cart
+            </button>
+          </div>
+          <p class="primary-text" id="product__subheading">
+            Decisive authority. Workflow faster. Maximum dependability.
+          </p>
+          <p class="secondary-text">
+            The camera is so compact and lightweight that you might forget it in
+            your pocket. The EOS M6 Mark II can shoot up to 30 fps with its RAW
+            shooting mode while tracking the dancer on stage without
+            interrupting others with a silent electronic shutter up to 1 /
+            16,000 sec.
+          </p>
+          <div id="product__video" class="flex justify-center align-center">
+            <img src="./assets/icons/play.svg" />
+          </div>
+        </div>
+        <div class="flex flex-column" id="product__images">
+          <div id="product__images--main"></div>
+          <div class="flex justify-space-between" id="product__images--minor">
+            <div class="product__minor" id="product__minor-1"></div>
+            <div class="product__minor" id="product__minor-2"></div>
+            <div class="product__minor" id="product__minor-3"></div>
+            <div class="product__minor" id="product__minor-4"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Awards -->
+      <div
+        class="flex bg-primary justify-center justify-space-between"
+        id="awards"
+      >
+        <div class="award__wrapper">
+          <div class="award" id="award-1">
+            <div class="award__image"></div>
+          </div>
+        </div>
+        <div class="award__wrapper">
+          <div class="award" id="award-2">
+            <div class="award__image"></div>
+          </div>
+        </div>
+        <div class="award__wrapper">
+          <div class="award" id="award-3">
+            <div class="award__image"></div>
+          </div>
+        </div>
+        <div class="award__wrapper">
+          <div class="award" id="award-4">
+            <div class="award__image"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Overview -->
+      <div class="flex" id="overview">
+        <div class="flex flex-column" id="overview__content">
+          <h3>More than a camera</h3>
+          <h2 class="primary-text" id="overview__heading">Overview</h2>
+          <p id="overview__paragraph" class="secondary-text">
+            For anyone who enjoys documenting their life with spontaneous,
+            creative photography and filmmaking, the EOS M6 Mark II provides
+            speed, power and versatility in a highly portable design.
+          </p>
+          <div class="flex flex-wrap" id="overview__techs">
+            <div class="flex overview__tech--wrapper">
+              <img
+                src="./assets/icons/check-circle.svg"
+                class="overview__tech--circle"
+              />
+              <p class="primary-text overview__tech">
+                32.5MP APS-C CMOS Sensor + DIGIC 8
+              </p>
+            </div>
+            <div class="flex overview__tech--wrapper">
+              <img
+                src="./assets/icons/check-circle.svg"
+                class="overview__tech--circle"
+              />
+              <p class="primary-text overview__tech">Dual Pixel CMOS AF</p>
+            </div>
+            <div class="flex overview__tech--wrapper">
+              <img
+                src="./assets/icons/check-circle.svg"
+                class="overview__tech--circle"
+              />
+              <p class="primary-text overview__tech">30fps RAW burst mode</p>
+            </div>
+            <div class="flex overview__tech--wrapper">
+              <img
+                src="./assets/icons/check-circle.svg"
+                class="overview__tech--circle"
+              />
+              <p class="primary-text overview__tech">5,481 autofocus points</p>
+            </div>
+            <div class="flex overview__tech--wrapper">
+              <img
+                src="./assets/icons/check-circle.svg"
+                class="overview__tech--circle"
+              />
+              <p class="primary-text overview__tech">Automatic Eye Focus</p>
+            </div>
+            <div class="flex overview__tech--wrapper">
+              <img
+                src="./assets/icons/check-circle.svg"
+                class="overview__tech--circle"
+              />
+              <p class="primary-text overview__tech">
+                4K Video (Uncropped / Cropped)
+              </p>
+            </div>
+          </div>
+        </div>
+        <img id="overview__image" src="./assets/img/overview.png" />
+      </div>
+      <div class="divider"></div>
+      <!-- Features -->
+      <div id="features" class="flex align-center">
+        <div id="features__img"></div>
+        <div id="features__content">
+          <h3>New technology behind</h3>
+          <h2 class="primary-text" id="features__heading">Our Features</h2>
+          <div id="features__features" class="flex flex-wrap">
+            <div class="features__feature--wrapper flex">
+              <div
+                class="features__feature flex flex-column align-center text-center"
+              >
+                <div
+                  class="features__feature--img"
+                  id="features__feature--img-1"
+                ></div>
+                <p class="features__feature--heading">Creative Filters</p>
+                <p class="features__feature--desc">Unique effects</p>
+              </div>
+            </div>
+            <div class="features__feature--wrapper flex">
+              <div
+                class="features__feature flex flex-column align-center text-center"
+              >
+                <div
+                  class="features__feature--img"
+                  id="features__feature--img-2"
+                ></div>
+                <p class="features__feature--heading">3.0 (7.5 cm) type</p>
+                <p class="features__feature--desc">LCD screen</p>
+              </div>
+            </div>
+            <div class="features__feature--wrapper flex">
+              <div
+                class="features__feature flex flex-column align-center text-center"
+              >
+                <div
+                  class="features__feature--img"
+                  id="features__feature--img-3"
+                ></div>
+                <p class="features__feature--heading">24.1 megapixel</p>
+                <p class="features__feature--desc">APS-C sensor</p>
+              </div>
+            </div>
+            <div class="features__feature--wrapper flex">
+              <div
+                class="features__feature flex flex-column align-center text-center"
+              >
+                <div
+                  class="features__feature--img"
+                  id="features__feature--img-4"
+                ></div>
+                <p class="features__feature--heading">Connectivity</p>
+                <p class="features__feature--desc">Simple shoot</p>
+              </div>
+            </div>
+            <div class="features__feature--wrapper flex">
+              <div
+                class="features__feature flex flex-column align-center text-center"
+              >
+                <div
+                  class="features__feature--img"
+                  id="features__feature--img-5"
+                ></div>
+                <p class="features__feature--heading">Intelligent Auto</p>
+                <p class="features__feature--desc">Simple shoot</p>
+              </div>
+            </div>
+            <div class="features__feature--wrapper flex">
+              <div
+                class="features__feature flex flex-column align-center text-center"
+              >
+                <div
+                  class="features__feature--img"
+                  id="features__feature--img-6"
+                ></div>
+                <p class="features__feature--heading">Intelligent Auto</p>
+                <p class="features__feature--desc">9 point autofocus</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <!-- Size -->
+      <div class="flex flex-column align-center" id="size">
+        <h3>Small, Light and Convenient</h3>
+        <h2 id="size__heading" class="primary-text">Camera Size</h2>
+        <img id="size__img" src="./assets/img/size.png" />
+      </div>
+      <!-- Preview -->
+      <div
+        class="flex position-relative align-center justify-space-between"
+        id="preview"
+      >
+        <div class="preview__changer flex align-center justify-center">
+          <img src="./assets/icons/arrow-left.svg" />
+        </div>
+        <div class="preview__changer flex align-center justify-center">
+          <img src="./assets/icons/arrow-right.svg" />
+        </div>
+        <div id="preview__lines" class="flex position-absolute">
+          <div class="preview__line preview__line--active"></div>
+          <div class="preview__line"></div>
+          <div class="preview__line"></div>
+          <div class="preview__line"></div>
+        </div>
+        <div id="preview__taken" class="tertiary-text position-absolute">
+          <p>Taken with Canon EOS M6 Mark II</p>
+          <div id="preview__taken--numbers" class="flex">
+            <div class="flex preview__taken--number">
+              <img src="./assets/icons/taken-1.svg" />
+              <p>1/8</p>
+            </div>
+            <div class="flex preview__taken--number">
+              <img src="./assets/icons/taken-2.svg" />
+              <p>1/320</p>
+            </div>
+            <div class="flex preview__taken--number">
+              <img src="./assets/icons/taken-3.svg" />
+              <p>200</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Spects -->
+      <div id="spects" class="flex">
+        <div id="spects__content" class="flex justify-center">
+          <div
+            id="spects__content--inner"
+            class="flex flex-column justify-center"
+          >
+            <div class="spects__spect spects__spect-active">
+              <div class="flex justify-space-between">
+                <h4>Imageing</h4>
+                <img src="./assets/icons/arrow-up-1.svg" />
+              </div>
+              <div class="divider spects__spect--divider"></div>
+              <p class="secondary-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam
+              </p>
+              <div class="divider spects__spect--divider"></div>
+            </div>
+            <div class="spects__spect">
+              <div class="flex justify-space-between">
+                <h4>Exposure Control</h4>
+                <img src="./assets/icons/arrow-down-1.svg" />
+              </div>
+              <div class="divider spects__spect--divider"></div>
+            </div>
+            <div class="spects__spect">
+              <div class="flex justify-space-between">
+                <h4>Video</h4>
+                <img src="./assets/icons/arrow-down-1.svg" />
+              </div>
+              <div class="divider spects__spect--divider"></div>
+            </div>
+            <div class="spects__spect">
+              <div class="flex justify-space-between">
+                <h4>Focus</h4>
+                <img src="./assets/icons/arrow-down-1.svg" />
+              </div>
+              <div class="divider spects__spect--divider"></div>
+            </div>
+            <div class="spects__spect">
+              <div class="flex justify-space-between">
+                <h4>Viewfinder and Monitor</h4>
+                <img src="./assets/icons/arrow-down-1.svg" />
+              </div>
+              <div class="divider spects__spect--divider"></div>
+            </div>
+          </div>
+        </div>
+        <div id="spects__img" class="flex align-center justify-center">
+          <h2 class="light-text text-center">
+            Product <span style="display: block; margin-top: 8px">Spects</span>
+          </h2>
+        </div>
+      </div>
+      <!-- Testimonial -->
+      <div id="testimonial" class="flex">
+        <div class="flex align-center justify-center" id="testimonial__img">
+          <h2 class="light-text">Testimonial</h2>
+        </div>
+        <div
+          class="bg-primary flex flex-column text-center align-center justify-center"
+          id="testimonial__content"
+        >
+          <div id="testimonial__avt"></div>
+          <p class="uppercase fw-bold testimonial__name">Amari Salter</p>
+          <p>
+            I bought this last month and I literally did not know anything about
+            photography. Lots of features and great photos, using it to practice
+            an hour a day
+          </p>
+          <div id="testimonial__lines" class="flex">
+            <div class="testimonial__line testimonial__line--active"></div>
+            <div class="testimonial__line"></div>
+            <div class="testimonial__line"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Related -->
+      <div id="related" class="flex flex-column align-center">
+        <h3>Related Product</h3>
+        <h2 id="related__heading" class="primary-text text-center">
+          Compatible Accessories
+        </h2>
+        <ul id="related__list" class="flex flex-wrap">
+          <li
+            class="related__product flex flex-column"
+            id="related__product--1"
+          >
+            <div
+              class="related__product--image flex align-center justify-center"
+            >
+              <img src="./assets/img/related-1.png" />
+            </div>
+            <h4 class="related__product--name">Product Name</h4>
+            <p class="secondary-text related__product--price">$40.00</p>
+            <div class="flex related__product--ratings--wrapper align-center">
+              <div class="related__product--ratings">
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star-half.svg"
+                />
+              </div>
+              <p class="secondary-text related__product--count">(21 review)</p>
+            </div>
+            <button class="btn btn-primary related__product--button">
+              Add to cart
+            </button>
+          </li>
+          <li
+            class="related__product flex flex-column"
+            id="related__product--2"
+          >
+            <div
+              class="related__product--image flex align-center justify-center"
+            >
+              <img src="./assets/img/related-2.png" />
+            </div>
+            <h4 class="related__product--name">Product Name</h4>
+            <p class="secondary-text related__product--price">$40.00</p>
+            <div class="flex related__product--ratings--wrapper align-center">
+              <div class="related__product--ratings">
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star-half.svg"
+                />
+              </div>
+              <p class="secondary-text related__product--count">(21 review)</p>
+            </div>
+            <button class="btn btn-primary related__product--button">
+              Add to cart
+            </button>
+          </li>
+          <li
+            class="related__product flex flex-column"
+            id="related__product--3"
+          >
+            <div
+              class="related__product--image flex align-center justify-center"
+            >
+              <img src="./assets/img/related-3.png" />
+            </div>
+            <h4 class="related__product--name">Product Name</h4>
+            <p class="secondary-text related__product--price">$40.00</p>
+            <div class="flex related__product--ratings--wrapper align-center">
+              <div class="related__product--ratings">
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star-half.svg"
+                />
+              </div>
+              <p class="secondary-text related__product--count">(21 review)</p>
+            </div>
+            <button class="btn btn-primary related__product--button">
+              Add to cart
+            </button>
+          </li>
+          <li
+            class="related__product flex flex-column"
+            id="related__product--4"
+          >
+            <div
+              class="related__product--image flex align-center justify-center"
+            >
+              <img src="./assets/img/related-4.png" />
+            </div>
+            <h4 class="related__product--name">Product Name</h4>
+            <p class="secondary-text related__product--price">$40.00</p>
+            <div class="flex related__product--ratings--wrapper align-center">
+              <div class="related__product--ratings">
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star.svg"
+                />
+                <img
+                  class="related__product--star"
+                  src="./assets/icons/star-half.svg"
+                />
+              </div>
+              <p class="secondary-text related__product--count">(21 review)</p>
+            </div>
+            <button class="btn btn-primary related__product--button">
+              Add to cart
+            </button>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>

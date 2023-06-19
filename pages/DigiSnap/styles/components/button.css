@@ -1,0 +1,35 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+
+  color: var(--color-light);
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+
+  background-image: none;
+  border: 1px solid transparent;
+
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn:hover {
+  background-color: #43484d;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.btn-secondary {
+  background-color: var(--color-light);
+  color: var(--color-heading);
+  border: 1px solid var(--color-heading);
+}

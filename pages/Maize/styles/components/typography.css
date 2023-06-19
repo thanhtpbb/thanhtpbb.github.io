@@ -1,0 +1,107 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Parisienne';
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 98px;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 96px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 48px;
+  line-height: 61px;
+}
+
+h4 {
+  font-size: 36px;
+  line-height: 137.5%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 140.4%;
+}
+
+/*  */
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+/*  */
+.light-text {
+  color: var(--color-light);
+}
+
+.body-text {
+  color: var(--color-body);
+}
+
+.primary-text {
+  color: var(--color-primary);
+}
+
+.secondary-text {
+  color: var(--color-secondary);
+}
+
+.tertiary-text {
+  color: var(--color-tertiary);
+}
+
+/*  */
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 41px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 110.3%;
+  }
+
+  h4 {
+    font-size: 22px;
+    line-height: 137.5%;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 140.4%;
+  }
+
+  .btn {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

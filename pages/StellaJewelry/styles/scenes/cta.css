@@ -1,0 +1,32 @@
+#cta {
+  margin-top: 30px;
+  padding: 83px 0 93px;
+}
+
+#cta > p {
+  margin: 50px 0;
+  max-width: 529px;
+}
+
+#cta > button {
+  padding: 19px 53px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media (max-width: 1200px) {
+  #cta {
+    margin-top: 6px;
+    padding: 43px 15px;
+  }
+
+  #cta > p {
+    margin: 30px 25px;
+  }
+
+  #cta > button {
+    padding: 12px 16px 11px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

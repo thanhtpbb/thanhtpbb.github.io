@@ -1,0 +1,53 @@
+#subscribe {
+  padding: 100px 405px;
+}
+
+#subscribe__paragraph {
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 36px;
+  margin: 20px 0 40px;
+}
+
+#subscribe__form {
+  width: 630px;
+  max-width: 630px;
+  background-color: #fff;
+}
+
+#subscribe__input {
+  padding: 14px 25px 15px;
+  border: none;
+  font-size: 14px;
+  line-height: 36px;
+  outline: none;
+  flex: 1;
+}
+
+#subscribe__input::placeholder {
+  color: #999999;
+}
+
+#subscribe__submit {
+  padding: 23px 71px 22px;
+  color: var(--color-light);
+  background-color: var(--color-primary);
+}
+
+@media (max-width: 1200px) {
+  #subscribe {
+    padding: 50px 15px;
+  }
+
+  #subscribe__content {
+    justify-content: center;
+  }
+
+  #subscribe__form {
+    width: 100%;
+  }
+
+  #subscribe__submit {
+    padding: 23px 30px 22px;
+  }
+}

@@ -1,0 +1,163 @@
+#business {
+  padding: 0 135px 106px;
+}
+
+#business__list {
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 106px;
+  margin-top: -57px;
+}
+
+.business__item {
+  width: 25%;
+  padding: 81px 44px 60px;
+  background-color: var(--color-light);
+}
+
+.business__item:not(:first-child) {
+  border-left: 0.3px solid var(--color-secondary);
+}
+
+.business__item--icon--wrapper {
+  padding: 0 40px;
+}
+
+.business__item--icon {
+  width: 100px;
+  padding-top: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#business__item--icon--1 {
+  background-image: url('../../assets/icons/medication.svg');
+}
+
+#business__item--icon--2 {
+  background-image: url('../../assets/icons/health_defects.svg');
+}
+
+#business__item--icon--3 {
+  background-image: url('../../assets/icons/live_support.svg');
+}
+
+#business__item--icon--4 {
+  background-image: url('../../assets/icons/first_aid.svg');
+}
+
+.business__item--name {
+  margin: 30px 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: var(--color-primary);
+  text-transform: capitalize;
+}
+
+.business__item--desc {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-tertiary);
+}
+
+#business__our--image {
+  width: calc(50% - 14px);
+  padding-top: calc((50% - 14px) / 571 * 529);
+  background-image: url('../../assets/img/cancer.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#business__our--content {
+  flex: 1;
+  padding-left: 100px;
+  align-items: flex-start;
+}
+
+#business__our--content > h2 {
+  margin-bottom: 36px;
+}
+
+#business__our--content > p {
+  margin-bottom: 36px;
+}
+
+#business__our--content > button {
+  padding: 16px 64px 15px;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+@media (max-width: 1200px) {
+  #business {
+    padding: 0 15px;
+  }
+
+  #business__list {
+    margin-top: -39px;
+    margin-bottom: 55px;
+  }
+
+  .business__item {
+    width: 50%;
+    padding: 34px 15px 20px;
+  }
+
+  .business__item:first-child,
+  .business__item:nth-child(2) {
+    border-bottom: 0.3px solid var(--color-secondary);
+  }
+
+  .business__item:nth-child(3) {
+    border-left: initial;
+  }
+
+  .business__item--icon--wrapper {
+    padding: 0 40px;
+  }
+
+  .business__item--icon {
+    width: 60px;
+  }
+
+  .business__item--name {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .business__item--desc {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  #business__our {
+    flex-direction: column;
+  }
+
+  #business__our--image {
+    width: calc(100% + 30px);
+    margin: 0 -15px;
+    padding-top: calc((100% + 30px) / 375 * 258);
+  }
+
+  #business__our--content {
+    padding: 38px 15px 37px;
+    align-items: center;
+  }
+
+  #business__our--content > h2 {
+    margin-bottom: 24px;
+  }
+
+  #business__our--content > p {
+    margin-bottom: 24px;
+  }
+
+  #business__our--content > button {
+    padding: 11px 20px 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

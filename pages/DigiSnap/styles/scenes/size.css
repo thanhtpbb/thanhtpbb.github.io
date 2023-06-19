@@ -1,0 +1,18 @@
+#size {
+  padding: 100px 0;
+}
+
+#size__heading {
+  margin: 20px 0 59px;
+}
+
+#size__img {
+  width: 1030px;
+  max-width: calc(100% - 30px);
+}
+
+@media (max-width: 1200px) {
+  #size {
+    padding: 40px 0;
+  }
+}

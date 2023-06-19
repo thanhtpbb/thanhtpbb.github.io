@@ -1,0 +1,57 @@
+#proofs {
+  padding: 78px 0 26px;
+}
+
+#proofs-list {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.proofs__proof--wrapper {
+  padding: 0 15px;
+  width: 25%;
+}
+
+.proofs__proof {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100%;
+}
+
+#proofs__proof--1 {
+  background-image: url('../../assets/img/proofs-1.jpg');
+}
+
+#proofs__proof--2 {
+  background-image: url('../../assets/img/proofs-2.jpg');
+}
+
+#proofs__proof--3 {
+  background-image: url('../../assets/img/proofs-3.jpg');
+}
+
+#proofs__proof--4 {
+  background-image: url('../../assets/img/proofs-4.jpg');
+}
+
+@media (max-width: 1200px) {
+  #proofs {
+    padding: 36px 0 28px;
+  }
+
+  #proofs-list {
+    width: 100%;
+    padding: 0 7.5px;
+  }
+
+  .proofs__proof--wrapper {
+    padding: 0 7.5px;
+    width: 50%;
+  }
+
+  .proofs__proof {
+    width: 100%;
+    padding-top: 100%;
+  }
+}

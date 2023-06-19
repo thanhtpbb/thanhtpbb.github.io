@@ -1,0 +1,36 @@
+#promotion {
+  padding: 264px 0 257px 135px;
+  background-image: url('../../assets/img/promotion-bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#promotion__heading {
+  max-width: 563px;
+}
+
+#promotion__button {
+  width: 292px;
+}
+
+#promotion__paragraph {
+  margin-top: 29px;
+  margin-bottom: 50px;
+  max-width: 462px;
+}
+
+@media (max-width: 1200px) {
+  #promotion {
+    padding: 94px 16px 362px 42px;
+  }
+}
+
+@media (max-width: 480px) {
+  #promotion__button {
+    width: 227px;
+  }
+
+  #promotion {
+    background-image: url('../../assets/img/promotion-bg-mobile.png');
+  }
+}

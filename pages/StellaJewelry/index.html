@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stella Jewelry</title>
+    <link rel="icon" href="assets/icons/diamond.svg" type="image/x-icon" />
+
+    <!-- Import CSS files & variables-->
+    <link rel="stylesheet" href="styles/utils/colors.css" />
+    <link rel="stylesheet" href="styles/utils/fonts.css" />
+    <link rel="stylesheet" href="styles/utils/index.css" />
+
+    <link rel="stylesheet" href="styles/components/typography.css" />
+    <link rel="stylesheet" href="styles/components/button.css" />
+    <link rel="stylesheet" href="styles/components/product-list.css" />
+    <link rel="stylesheet" href="styles/components/product.css" />
+
+    <link rel="stylesheet" href="styles/scenes/landing.css" />
+    <link rel="stylesheet" href="styles/scenes/benefits.css" />
+    <link rel="stylesheet" href="styles/scenes/counter.css" />
+    <link rel="stylesheet" href="styles/scenes/featured.css" />
+    <link rel="stylesheet" href="styles/scenes/testimonial.css" />
+    <link rel="stylesheet" href="styles/scenes/proofs.css" />
+    <link rel="stylesheet" href="styles/scenes/services.css" />
+    <link rel="stylesheet" href="styles/scenes/cta.css" />
+    <link rel="stylesheet" href="styles/scenes/end.css" />
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Landing -->
+      <div id="landing" class="flex">
+        <div id="landing__content" class="bg-1">
+          <h1 class="main-heading">your Black Friday offer</h1>
+          <p class="text-text">
+            A supporting description under the big headline. Entice your
+            visitors to keep reading the high level details of your offering
+          </p>
+          <button class="btn btn-primary">Shop now</button>
+        </div>
+        <div id="landing__img"></div>
+      </div>
+      <!-- Benefits -->
+      <div id="benefits" class="flex flex-column align-center">
+        <h2 id="benefits__heading" class="heading text-center">
+          Here are some of the benefits
+          <span style="display: block">of your offer</span>
+        </h2>
+        <div id="benefits__inner" class="flex">
+          <div class="benefits__benefit flex">
+            <div
+              class="benefits__benefit-img"
+              id="benefits__benefit-img--1"
+            ></div>
+            <div class="benefits__benefit--texts flex flex-column">
+              <h3 class="title-text benefits__benefit--heading">Benefit 1</h3>
+              <p class="paragraph benefits__benefit--paragraph">
+                This is where you write about your wonderful deals for this BFCM
+                season
+              </p>
+            </div>
+          </div>
+          <div class="benefits__benefit flex">
+            <div
+              class="benefits__benefit-img"
+              id="benefits__benefit-img--2"
+            ></div>
+            <div class="benefits__benefit--texts flex flex-column">
+              <h3 class="title-text benefits__benefit--heading">Benefit 2</h3>
+              <p class="paragraph benefits__benefit--paragraph">
+                Free-shipping for example is a very attractive offer that will
+                catch your customers' attention
+              </p>
+            </div>
+          </div>
+          <div class="benefits__benefit flex">
+            <div
+              class="benefits__benefit-img"
+              id="benefits__benefit-img--3"
+            ></div>
+            <div class="benefits__benefit--texts flex flex-column">
+              <h3 class="title-text benefits__benefit--heading">Benefit 3</h3>
+              <p class="paragraph benefits__benefit--paragraph">
+                Worldwide shipping is a huge plus that would drive sales to your
+                store
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Counter -->
+      <div id="counter" class="bg-2 flex">
+        <div id="counter__img"></div>
+        <div id="counter__content" class="flex justify-center">
+          <div
+            id="counter__content--inner"
+            class="flex flex-column align-center"
+          >
+            <h2 class="heading">Time is running out!</h2>
+            <div id="counter__list" class="flex align-center gap-10">
+              <div class="counter__counter flex flex-column align-center">
+                <p class="counter__number light-text">01</p>
+                <p class="counter__time light-text">Days</p>
+              </div>
+              <p class="light-text" id="counter__colon">:</p>
+              <div class="counter__counter flex flex-column align-center">
+                <p class="counter__number light-text">22</p>
+                <p class="counter__time light-text">Hours</p>
+              </div>
+              <p class="light-text" id="counter__colon">:</p>
+              <div class="counter__counter flex flex-column align-center">
+                <p class="counter__number light-text">14</p>
+                <p class="counter__time light-text">Mins</p>
+              </div>
+              <p class="light-text" id="counter__colon">:</p>
+              <div class="counter__counter flex flex-column align-center">
+                <p class="counter__number light-text">30</p>
+                <p class="counter__time light-text">Secs</p>
+              </div>
+            </div>
+
+            <button class="btn btn-primary">Shop now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Featured Products -->
+      <div id="featured" class="flex justify-center">
+        <div
+          id="featured__inner"
+          class="flex flex-column align-center text-center"
+        >
+          <h2 class="heading">Featured Products</h2>
+          <div id="featured__products" class="flex flex-wrap">
+            <div
+              class="featured__product flex flex-column align-center"
+              id="featured__product--1"
+            >
+              <div class="featured__product--image"></div>
+              <h3 class="featured__product--name title-text">Product Name</h3>
+              <div class="featured__product--prices flex text-text">
+                <p class="featured__product--price-original line-through">
+                  $200
+                </p>
+                <p class="featured__product--price-sale fw-medium">$120</p>
+              </div>
+              <button class="featured__product--button btn btn-primary">
+                Shop now
+              </button>
+            </div>
+            <div
+              class="featured__product flex flex-column align-center"
+              id="featured__product--2"
+            >
+              <div class="featured__product--image"></div>
+              <h3 class="featured__product--name title-text">Product Name</h3>
+              <div class="featured__product--prices flex text-text">
+                <p class="featured__product--price-original line-through">
+                  $200
+                </p>
+                <p class="featured__product--price-sale fw-medium">$120</p>
+              </div>
+              <button class="featured__product--button btn btn-primary">
+                Shop now
+              </button>
+            </div>
+            <div
+              class="featured__product flex flex-column align-center"
+              id="featured__product--3"
+            >
+              <div class="featured__product--image"></div>
+              <h3 class="featured__product--name title-text">Product Name</h3>
+              <div class="featured__product--prices flex text-text">
+                <p class="featured__product--price-original line-through">
+                  $200
+                </p>
+                <p class="featured__product--price-sale fw-medium">$120</p>
+              </div>
+              <button class="featured__product--button btn btn-primary">
+                Shop now
+              </button>
+            </div>
+            <div
+              class="featured__product flex flex-column align-center"
+              id="featured__product--4"
+            >
+              <div class="featured__product--image"></div>
+              <h3 class="featured__product--name title-text">Product Name</h3>
+              <div class="featured__product--prices flex text-text">
+                <p class="featured__product--price-original line-through">
+                  $200
+                </p>
+                <p class="featured__product--price-sale fw-medium">$120</p>
+              </div>
+              <button class="featured__product--button btn btn-primary">
+                Shop now
+              </button>
+            </div>
+          </div>
+          <div class="flex" id="featured__imgs">
+            <div class="featured__img--wrapper flex">
+              <div
+                id="featured__img--1"
+                class="featured__img flex flex-column align-center text-center"
+              >
+                <p class="featured__img--heading title-text">Bundle Sell</p>
+                <p class="featured__img--para text-text">
+                  Get 1 ring and 1 pair of earrings for $100
+                </p>
+              </div>
+            </div>
+            <div class="featured__img--wrapper flex">
+              <div
+                id="featured__img--2"
+                class="featured__img flex flex-column align-center text-center"
+              >
+                <p class="featured__img--heading title-text">Couple Rings</p>
+                <p class="featured__img--para text-text">
+                  Get 10% off for Selected Items
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial -->
+      <div
+        id="testimonial"
+        class="bg-1 text-center flex flex-column align-center"
+      >
+        <h2 class="heading">Testimonial</h2>
+        <p id="testimonial__paragraph" class="paragraph">
+          The convenience of online shopping is seeing what other customers
+          saying. Place a short paragraph show how people satisfied with your
+          product here
+        </p>
+        <p class="paragraph uppercase fw-medium">Customer's Name</p>
+        <div id="testimonial__imgs" class="flex">
+          <div class="testimonial__img" id="testimonial__img--1"></div>
+          <div class="testimonial__img" id="testimonial__img--2"></div>
+          <div class="testimonial__img" id="testimonial__img--3"></div>
+        </div>
+      </div>
+      <!-- Social Proofs -->
+      <div id="proofs" class="flex flex-column text-center align-center">
+        <h2 class="heading">Social Proofs</h2>
+        <div id="proofs-list" class="flex flex-wrap">
+          <div class="proofs__proof--wrapper">
+            <div class="proofs__proof" id="proofs__proof--1"></div>
+          </div>
+          <div class="proofs__proof--wrapper">
+            <div class="proofs__proof" id="proofs__proof--2"></div>
+          </div>
+          <div class="proofs__proof--wrapper">
+            <div class="proofs__proof" id="proofs__proof--3"></div>
+          </div>
+          <div class="proofs__proof--wrapper">
+            <div class="proofs__proof" id="proofs__proof--4"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Services -->
+      <div id="services" class="flex">
+        <div id="services__img"></div>
+        <div class="bg-2 flex justify-center" id="services__content">
+          <div id="services__content--inner">
+            <h1 class="heading uppercase">Exclusive</h1>
+            <h2>Black Friday Services</h2>
+            <div id="services__list" class="flex flex-column">
+              <div class="services__service flex">
+                <img src="./assets/icons/bullet.svg" />
+                <p class="light-text">Complimentary Delivery</p>
+              </div>
+              <div class="services__service flex">
+                <img src="./assets/icons/bullet.svg" />
+                <p class="light-text">Free Returns & Exchanges</p>
+              </div>
+              <div class="services__service flex">
+                <img src="./assets/icons/bullet.svg" />
+                <p class="light-text">Buy Online & Pick up in Store</p>
+              </div>
+              <div class="services__service flex">
+                <img src="./assets/icons/bullet.svg" />
+                <p class="light-text">Free Gift Wrapping</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Call to action -->
+      <div id="cta" class="bg-1 text-center flex flex-column align-center">
+        <h2 class="heading">End with one final call to action</h2>
+        <p class="paragraph">
+          This is your last shot at converting someone. Remind them about the
+          benefits of your offer and encourage them to act now.
+        </p>
+        <button class="btn btn-primary">Shop now</button>
+      </div>
+      <!-- End -->
+      <div id="end"></div>
+    </main>
+  </body>
+</html>

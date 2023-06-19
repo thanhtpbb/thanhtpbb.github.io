@@ -1,0 +1,60 @@
+#awards {
+  padding: 40px 135px;
+}
+
+.award__wrapper {
+  padding: 0 15px;
+  width: 25%;
+}
+
+.award {
+  width: 100%;
+  padding: 30px 0;
+}
+
+.award__image {
+  width: 100%;
+  padding-top: calc(100% / 270 * 130);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#award-1 .award__image {
+  background-image: url('../../assets/img/award-1.png');
+}
+
+#award-2 .award__image {
+  background-image: url('../../assets/img/award-2.png');
+}
+
+#award-3 .award__image {
+  background-image: url('../../assets/img/award-3.png');
+}
+
+#award-4 .award__image {
+  background-image: url('../../assets/img/award-4.png');
+}
+
+@media (max-width: 720px) {
+  #awards {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .award__wrapper {
+    width: 100%;
+  }
+
+  .award {
+    width: 100%;
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #awards {
+    padding: 40px 15px;
+  }
+}

@@ -1,0 +1,113 @@
+#features {
+  padding: 100px 135px;
+}
+
+#features__img {
+  width: 470px;
+  height: 470px;
+  margin-right: 130px;
+  background-image: url('../../assets/img/features.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#features__content {
+  flex: 1;
+}
+
+#features__heading {
+  margin: 20px 0 40px;
+}
+
+#features__features {
+  margin: 0 -7.5px;
+}
+
+.features__feature--wrapper {
+  width: 33.333333%;
+  padding: 0 7.5px;
+  margin-bottom: 15px;
+}
+
+.features__feature {
+  width: 100%;
+  padding: 20px 0 30px;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+}
+
+.features__feature--img {
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#features__feature--img-1 {
+  background-image: url('../../assets/img/feature-1.png');
+}
+
+#features__feature--img-2 {
+  background-image: url('../../assets/img/feature-2.png');
+}
+
+#features__feature--img-3 {
+  background-image: url('../../assets/img/feature-3.png');
+}
+
+#features__feature--img-4 {
+  background-image: url('../../assets/img/feature-4.png');
+}
+
+#features__feature--img-5 {
+  background-image: url('../../assets/img/feature-5.png');
+}
+
+#features__feature--img-6 {
+  background-image: url('../../assets/img/feature-6.png');
+}
+
+.features__feature--heading {
+  font-weight: 500;
+  margin: 20px 0 5px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-primary);
+}
+
+.features__feature--desc {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-secondary);
+}
+
+@media (max-width: 1350px) {
+  #features__img {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #features {
+    flex-direction: column;
+    padding: 40px 16px 25px 14px;
+  }
+
+  #features__content {
+    width: 100%;
+  }
+
+  #features__img {
+    width: 345px;
+    max-width: 100%;
+    height: 345px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .features__feature--wrapper {
+    width: 100%;
+  }
+}

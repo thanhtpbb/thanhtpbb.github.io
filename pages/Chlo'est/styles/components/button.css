@@ -1,0 +1,40 @@
+.btn {
+  /* Positioning */
+  display: inline-block;
+  vertical-align: middle;
+
+  /* Typography */
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  /* Visual */
+  background-image: none;
+  border: 1px solid transparent;
+
+  /* Miscellaneous */
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn:hover {
+  background-color: #722811;
+  color: var(--color-light);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.btn-secondary {
+  background-color: var(--color-light);
+  color: var(--color-heading);
+  border: 1px solid var(--color-heading);
+}

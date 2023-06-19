@@ -1,0 +1,38 @@
+#landing {
+  padding: 185px 394px 245px;
+  background-image: url("../../assets/img/landing-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#landing__changers {
+  gap: 10px;
+}
+
+.landing__changer {
+  background: #c4ab8e;
+}
+
+#landing__heading {
+  margin: 39.65px 0 30px;
+  width: 652px;
+}
+
+#landing__button {
+  padding: 20px 78px;
+}
+
+#landing__arrow {
+  bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+  #landing__heading {
+    width: initial;
+    max-width: 100%;
+  }
+
+  #landing {
+    padding: 110px 24px 149px 25px;
+  }
+}

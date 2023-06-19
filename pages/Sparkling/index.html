@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sparkling</title>
+    <link rel="icon" href="assets/img/snowflake.svg" type="image/x-icon" />
+
+    <!-- Import CSS files & variables-->
+    <link rel="stylesheet" href="styles/utils/colors.css" />
+    <link rel="stylesheet" href="styles/utils/fonts.css" />
+    <link rel="stylesheet" href="styles/utils/index.css" />
+
+    <link rel="stylesheet" href="styles/components/background.css" />
+    <link rel="stylesheet" href="styles/components/button.css" />
+    <link rel="stylesheet" href="styles/components/typography.css" />
+
+    <link rel="stylesheet" href="styles/scenes/promotion.css" />
+    <link rel="stylesheet" href="styles/scenes/benefits.css" />
+    <link rel="stylesheet" href="styles/scenes/counter.css" />
+    <link rel="stylesheet" href="styles/scenes/write.css" />
+    <link rel="stylesheet" href="styles/scenes/collection.css" />
+    <link rel="stylesheet" href="styles/scenes/testimonials.css" />
+    <link rel="stylesheet" href="styles/scenes/subscribe.css" />
+    <link rel="stylesheet" href="styles/scenes/cta.css" />
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="section flex flex-column bg-primary" id="promotion">
+        <h1 id="promotion__heading" class="secondary-text">
+          Your Christmas Offering
+        </h1>
+        <p id="promotion__paragraph" class="light-text">
+          A supporting description under the big headline. Entice your visitors
+          to keep reading the high level details of your offering.
+        </p>
+        <button id="promotion__button" class="btn btn-secondary">
+          Shop Now
+        </button>
+      </div>
+      <div
+        class="section flex flex-column align-center text-center"
+        id="benefits"
+      >
+        <h2 id="benefits__heading" class="primary-text">
+          Here are some of the benefits of your offer
+        </h2>
+        <div id="benefits__list" class="flex">
+          <div
+            class="benefits__item bg-secondary flex flex-column align-center justify-center"
+          >
+            <img class="benefits__icon" src="./assets/icons/benefit-1.svg" />
+            <p class="benefits__name text-tertiary fw-semibold">Benefit 1</p>
+          </div>
+          <div
+            class="benefits__item bg-secondary flex flex-column align-center justify-center"
+          >
+            <img class="benefits__icon" src="./assets/icons/benefit-2.svg" />
+            <p class="benefits__name text-tertiary fw-semibold">Benefit 2</p>
+          </div>
+          <div
+            class="benefits__item bg-secondary flex flex-column align-center justify-center"
+          >
+            <img class="benefits__icon" src="./assets/icons/benefit-3.svg" />
+            <p class="benefits__name text-tertiary fw-semibold">Benefit 3</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-column align-center justify-center text-center"
+        id="counter"
+      >
+        <h2 class="secondary-text">Christmas is coming!</h2>
+        <div id="counter__list" class="flex primary-text">
+          <div
+            class="counter__item flex flex-column bg-secondary justify-center"
+          >
+            <h3 class="counter__number">22</h3>
+            <p class="counter__time">Days</p>
+          </div>
+          <div
+            class="counter__item flex flex-column bg-secondary justify-center"
+          >
+            <h3 class="counter__number">14</h3>
+            <p class="counter__time">Hours</p>
+          </div>
+          <div
+            class="counter__item flex flex-column bg-secondary justify-center"
+          >
+            <h3 class="counter__number">06</h3>
+            <p class="counter__time">Mins</p>
+          </div>
+          <div
+            class="counter__item flex flex-column bg-secondary justify-center"
+          >
+            <h3 class="counter__number">30</h3>
+            <p class="counter__time">Secs</p>
+          </div>
+        </div>
+      </div>
+      <div class="section flex bg-primary light-text" id="write">
+        <div class="write__item" id="write__content">
+          <h2 id="write__heading">Write about the holiday spirit</h2>
+          <p id="write__para">
+            By writing about Christmas, people might be moved and get more
+            excited to buy for the holiday. Let your words do their magic.
+          </p>
+        </div>
+        <div id="write_img" class="write__item"></div>
+      </div>
+      <div
+        class="section flex flex-column bg-light text-center justify-center"
+        id="collection"
+      >
+        <h5 id="collection__subheading" class="tertiary-text uppercase">
+          Sale up to 60%
+        </h5>
+        <h2 id="collection__heading" class="text-center primary-text">
+          Sales Featured Collection
+        </h2>
+        <div class="collection__type">
+          <h4 class="collection__type--item uppercase" class="tertiary-text">
+            Gifts For Her
+          </h4>
+          <div class="flex flex-wrap">
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product2.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product3.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product4.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+          </div>
+          <h4 class="collection__type--item uppercase" class="tertiary-text">
+            Gifts For Him
+          </h4>
+          <div class="flex flex-wrap">
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product2.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product3.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product4.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+          </div>
+          <h4 class="collection__type--item uppercase" class="tertiary-text">
+            Gifts For Family
+          </h4>
+          <div class="flex flex-wrap">
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product2.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product3.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+            <li class="collection__item flex flex-column align-center">
+              <div
+                class="collection__item--bg flex justify-center align-center"
+              >
+                <img
+                  class="collection__item--image"
+                  src="./assets/img/product4.png"
+                />
+              </div>
+              <p class="collection__item--name tertiary-text fw-medium">
+                Product name
+              </p>
+              <div
+                class="collection__item--prices flex justify-center fw-medium"
+              >
+                <p class="collection__item--price line-through tertiary-text">
+                  $55.00
+                </p>
+                <p class="collection__item--sale-price primary-text">$30.00</p>
+              </div>
+              <button class="btn btn-primary">Shop Now</button>
+            </li>
+          </div>
+        </div>
+      </div>
+      <div
+        class="section flex flex-column bg-primary align-center text-center"
+        id="testimonials"
+      >
+        <h2 class="secondary-text" id="testimonials__heading">Testimonials</h2>
+        <p class="light-text" id="testimonials__description">
+          This is the place where you let your customers do the talk for you.
+        </p>
+        <div class="flex">
+          <img
+            class="testimonials__change"
+            src="./assets/icons/polygon-left.svg"
+          />
+          <div class="flex flex-column align-center">
+            <div class="testimonials__avt"></div>
+            <p class="light-text testimonials__comment">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam
+            </p>
+            <p class="light-text uppercase">Caelin Spears</p>
+          </div>
+          <img
+            class="testimonials__change"
+            src="./assets/icons/polygon-right.svg"
+          />
+        </div>
+      </div>
+      <div
+        class="section flex flex-column justify-center align-center text-center"
+        id="subscribe"
+      >
+        <h2 class="primary-text" id="subscribe__heading">
+          Subscribe for more discounts
+        </h2>
+        <form class="flex" id="subscribe__form">
+          <input
+            type="email"
+            name="email"
+            id="subscribe__form--input"
+            placeholder="Your Email"
+          />
+          <button
+            id="subscribe__form--button"
+            class="btn btn-primary"
+            type="submit"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+      <div class="section flex flex-column align-center text-center" id="cta">
+        <h2 id="cta__heading" class="primary-text">
+          End with one final call to action
+        </h2>
+        <p class="text-tertiary" id="cta__para">
+          This is your last shot at converting someone.
+          <span style="display: block">
+            Remind them about the benefits of your offer and encourage them to
+            act now.
+          </span>
+        </p>
+        <button id="promotion__button" class="btn btn-primary">Shop Now</button>
+      </div>
+    </main>
+  </body>
+</html>

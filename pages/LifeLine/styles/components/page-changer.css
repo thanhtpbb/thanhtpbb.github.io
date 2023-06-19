@@ -1,0 +1,27 @@
+.page-changers {
+  display: flex;
+  gap: 7.5px;
+}
+
+.page-changer {
+  border-radius: 10px;
+  width: 21.5px;
+  height: 5px;
+}
+
+.page-changer-primary {
+  background: rgba(196, 196, 196, 0.5);
+}
+
+.page-changer-primary--active {
+  background: #0055d4;
+  opacity: 0.5;
+}
+
+.page-changer-secondary {
+  background: #ffffff;
+}
+
+.page-changer-secondary--active {
+  opacity: 0.4;
+}

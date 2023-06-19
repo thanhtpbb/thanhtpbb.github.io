@@ -1,0 +1,50 @@
+.bg-primary {
+  background-color: var(--color-background-primary);
+}
+
+.ff-pangolin {
+  font-family: 'Pangolin';
+}
+
+.ff-lato,
+p {
+  font-family: 'Lato';
+}
+
+/*  */
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+/*  */
+.light-text {
+  color: var(--color-light);
+}
+
+.primary-text {
+  color: var(--color-primary);
+}
+
+.secondary-text {
+  color: var(--color-secondary);
+}
+
+.tertiary-text {
+  color: var(--color-tertiary);
+}
+
+.background-primary-text {
+  color: var(--color-background-primary);
+}

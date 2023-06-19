@@ -1,0 +1,44 @@
+#about {
+  padding: 292px 0 239px;
+  background-image: url('../../assets/img/about.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#about > h1 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 81px;
+}
+
+#about > p {
+  max-width: 450px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+@media (max-width: 1200px) {
+  #about {
+    padding: 89px 0;
+  }
+
+  #about > h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  #about > p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  #about {
+    background-image: url('../../assets/img/about-mobile.png');
+  }
+
+  #about > p {
+    max-width: 223px;
+  }
+}

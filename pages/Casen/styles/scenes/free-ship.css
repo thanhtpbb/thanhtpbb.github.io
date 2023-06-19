@@ -1,0 +1,15 @@
+#free-ship {
+  padding: 27px 0 26px;
+  background-color: var(--color-primary);
+}
+
+#free-ship__para {
+  font-size: 16px;
+  line-height: 17px;
+}
+
+@media (max-width: 1200px) {
+  #free-ship {
+    padding: 24px 0 23px;
+  }
+}

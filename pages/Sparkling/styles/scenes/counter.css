@@ -1,0 +1,50 @@
+#counter {
+  padding: 156px 0;
+  background-image: url('../../assets/img/counter-bg.jpg');
+  background-position: 50% 30%;
+  background-size: cover;
+  margin-bottom: 8px;
+}
+
+#counter__list {
+  gap: 59px;
+  margin-top: 30px;
+}
+
+.counter__item {
+  border-radius: 50%;
+  width: 148px;
+  height: 148px;
+}
+
+.counter__time {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media (max-width: 1200px) {
+  .counter__time {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  #counter {
+    padding: 100px 0;
+  }
+
+  #counter__list {
+    gap: 7.05px;
+  }
+
+  .counter__item {
+    width: 73.95px;
+    height: 73.95px;
+  }
+}
+
+@media (max-width: 480px) {
+  #counter {
+    background-size: 200%;
+  }
+}

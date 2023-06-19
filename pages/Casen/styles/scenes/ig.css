@@ -1,0 +1,57 @@
+#ig__cta {
+  padding: 32px 0;
+}
+
+#ig__cta--inner {
+  gap: 20px;
+}
+
+#ig__imgs {
+  width: 100%;
+}
+
+/* 1:1 aspect ratio */
+.ig__img {
+  width: 16.66666667%;
+  padding-top: 16.666666667%;
+  background-size: cover;
+  background-position: center;
+}
+
+#ig__img--1 {
+  background-image: url('../../assets/img/ig-1.png');
+}
+
+#ig__img--2 {
+  background-image: url('../../assets/img/ig-2.png');
+}
+
+#ig__img--3 {
+  background-image: url('../../assets/img/ig-3.png');
+}
+
+#ig__img--4 {
+  background-image: url('../../assets/img/ig-4.png');
+}
+
+#ig__img--5 {
+  background-image: url('../../assets/img/ig-5.png');
+}
+
+#ig__img--6 {
+  background-image: url('../../assets/img/ig-6.png');
+}
+
+@media (max-width: 800px) {
+  .ig__img {
+    width: 33.33333%;
+    height: 33.33333vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .ig__img {
+    width: 50%;
+    height: 50vw;
+  }
+}

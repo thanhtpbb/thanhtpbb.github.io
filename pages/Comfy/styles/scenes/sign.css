@@ -1,0 +1,83 @@
+/* Sign up  */
+#sign {
+  background-color: var(--color-background);
+  padding-top: 88px;
+}
+
+#sign__heading {
+  color: var(--color-secondary);
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+#sign__desc {
+  color: var(--color-primary);
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 61px;
+}
+
+#sign__form {
+  margin-bottom: 100px;
+  width: 630px;
+}
+
+#sign__form--input {
+  padding: 0 28px;
+  font-size: 18px;
+  line-height: 21px;
+  border: none;
+  flex: 1;
+}
+
+#sign__form--input::placeholder {
+  color: #999999;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#sign__form--button {
+  padding: 19px 59px;
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  #sign {
+    padding-top: 36px;
+  }
+
+  #sign__desc {
+    max-width: 75%;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+
+  #sign__form {
+    margin-bottom: 100px;
+    width: calc(100% - 32px);
+    margin: 16px 0 44px 0;
+  }
+
+  #sign__form--input {
+    padding: 18px 0 18px 18px;
+  }
+
+  #sign__form--input::placeholder {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  #sign__form--button {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 16px 15.5px 19px 20.55px;
+  }
+}
+
+@media (max-width: 480px) {
+  #sign__form > .div {
+    width: calc(100%);
+  }
+}

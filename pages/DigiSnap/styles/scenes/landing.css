@@ -1,0 +1,22 @@
+#landing {
+  padding: 315px 0 304px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../assets/img/landing-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#arrows {
+  bottom: 40px;
+  left: calc(50% - 23px);
+}
+
+@media (max-width: 1200px) {
+  #landing {
+    padding: 134px 0;
+  }
+
+  #arrows {
+    bottom: 30px;
+  }
+}

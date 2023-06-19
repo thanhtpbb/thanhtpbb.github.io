@@ -1,0 +1,43 @@
+h1,
+h2,
+h3,
+h4 h5,
+p {
+  margin: 0;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-black {
+  font-weight: 900;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+@media (max-width: 1200px) {
+  .heading {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

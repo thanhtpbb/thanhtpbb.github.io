@@ -1,0 +1,85 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+/*  */
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+/*  */
+.light-text {
+  color: var(--color-light);
+}
+
+.title-text {
+  color: var(--color-title);
+}
+
+.text-text {
+  color: var(--color-text);
+}
+
+/*  */
+.bg-1 {
+  background-color: var(--color-bg-1);
+}
+
+.bg-2 {
+  background-color: var(--color-bg-2);
+}
+
+.main-heading,
+.heading {
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  color: var(--color-title);
+}
+
+.main-heading {
+  text-transform: uppercase;
+  font-size: 72px;
+  line-height: 96px;
+}
+
+.heading {
+  font-size: 55px;
+  line-height: 73px;
+}
+
+.paragraph {
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--color-text);
+}
+
+@media (max-width: 1200px) {
+  .main-heading {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .heading {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

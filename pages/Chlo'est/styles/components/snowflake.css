@@ -1,0 +1,24 @@
+.snowflake {
+  height: 42px;
+  width: 1.35px;
+  bottom: -21px;
+  left: 21px;
+  background: #c3ab8e;
+}
+
+.snowflake::before,
+.snowflake::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #c3ab8e;
+  position: absolute;
+}
+
+.snowflake::before {
+  transform: rotate(45deg);
+}
+
+.snowflake::after {
+  transform: rotate(135deg);
+}
