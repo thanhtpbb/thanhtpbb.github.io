@@ -1,5 +1,5 @@
 #newsletter {
-  background-image: url("../../assets/img/landing-bg.png");
+  background-image: url('../../assets/img/landing-bg.png');
   background-position: center;
   background-size: cover;
   padding: 90px 335px 89px 338px;
@@ -26,16 +26,21 @@
 }
 
 #newsletter__form--input {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 20px;
   line-height: 45px;
-  padding: 0 21px;
+  padding: 14px 21px;
   flex: 1;
+  border: none;
+  border: 1px solid var(--color-heading);
+  border-right: none;
 }
 
 #newsletter__form--input::placeholder {
   color: #c9c9c9;
+  font-size: 20px;
+  line-height: 45px;
 }
 
 #newsletter__form--submit {

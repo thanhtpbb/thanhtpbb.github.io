@@ -64,17 +64,6 @@
   padding: 16px 46px;
 }
 
-#video {
-  background-image: url('../../assets/img/video-bg.png');
-  background-position: center;
-  background-size: cover;
-  min-height: 339px;
-}
-
-#video > img {
-  padding: 166px 0;
-}
-
 @media (max-width: 1200px) {
   #product {
     flex-direction: column;
@@ -90,9 +79,15 @@
 
   #product__content--inner {
     padding: 28px 16px 40px 14px;
+    margin: 28px 0 40px;
+    width: calc(100% - 60px);
   }
 
   #video > img {
     padding: 82px 0 81px;
+  }
+
+  #product__button {
+    width: 100%;
   }
 }

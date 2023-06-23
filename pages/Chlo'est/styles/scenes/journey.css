@@ -3,6 +3,10 @@
   gap: 94px;
 }
 
+#journey__content {
+  margin-top: 112px;
+}
+
 #journey__image--wrapper {
   z-index: 201;
 }
@@ -11,7 +15,7 @@
   z-index: 202;
   width: 430px;
   height: 559px;
-  background-image: url("../../assets/img/journey-img.png");
+  background-image: url('../../assets/img/journey-img.png');
   background-size: cover;
   background-position: center;
 }

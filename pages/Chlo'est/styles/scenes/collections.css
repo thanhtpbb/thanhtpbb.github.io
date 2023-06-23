@@ -9,6 +9,7 @@
 
 .collections__name {
   z-index: 203;
+  margin: 10px;
 }
 
 .collections_add {
@@ -19,7 +20,7 @@
 }
 
 .collections_add::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   width: 100%;
@@ -38,15 +39,15 @@
 }
 
 #moisturizer {
-  background-image: url("../../assets/img/moisturizer.png");
+  background-image: url('../../assets/img/moisturizer.png');
 }
 
 #nourishing {
-  background-image: url("../../assets/img/nourishing.png");
+  background-image: url('../../assets/img/nourishing.png');
 }
 
 #cleansers {
-  background-image: url("../../assets/img/cleanser.png");
+  background-image: url('../../assets/img/cleanser.png');
 }
 
 @media (max-width: 1200px) {

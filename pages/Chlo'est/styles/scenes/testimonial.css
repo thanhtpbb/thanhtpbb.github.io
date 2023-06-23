@@ -18,8 +18,8 @@
 .testimonial__comment {
   color: #928475;
   max-width: 589px;
-  font-size: 26px;
-  line-height: 36px;
+  font-size: 30px;
+  line-height: 45px;
 }
 
 .testimonial__content {
@@ -27,7 +27,7 @@
 }
 
 .testimonials__avt {
-  background-image: url("../../assets/img/testimonial_avt.png");
+  background-image: url('../../assets/img/testimonial_avt.png');
   border-radius: 50%;
   background-size: cover;
   background-position: center;
@@ -57,5 +57,10 @@
 
   .testimonial__heading {
     margin-bottom: 40px;
+  }
+
+  .testimonial__comment {
+    font-size: 26px;
+    line-height: 36px;
   }
 }

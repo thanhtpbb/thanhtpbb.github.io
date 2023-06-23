@@ -1,0 +1,22 @@
+#video {
+  background-image: url('../../assets/img/video-bg.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 339px;
+}
+
+#video > img {
+  padding: 166px 0;
+}
+
+#video > img:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  #video > img {
+    padding: 82px 0 81px;
+    width: 176px;
+    height: 176px;
+  }
+}
