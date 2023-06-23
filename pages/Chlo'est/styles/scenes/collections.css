@@ -1,8 +1,13 @@
+#collections {
+  background-color: var(--color-background-primary);
+}
+
 .collections__item {
   background-size: cover;
   background-position: bottom;
-  width: 480px;
-  height: 480px;
+  width: 33.33333vw;
+  height: 33.33333vw;
+  min-height: 375px;
   z-index: 201;
   border: 2px solid #fff1e1;
 }
@@ -57,5 +62,11 @@
 
   .collections__item {
     width: calc(100% - 4px);
+  }
+}
+
+@media (max-width: 600px) {
+  .collections__item {
+    height: 100vw;
   }
 }

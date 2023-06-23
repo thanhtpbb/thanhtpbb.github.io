@@ -78,9 +78,8 @@
   }
 
   #product__content--inner {
-    padding: 28px 16px 40px 14px;
+    padding: 28px 35px 40px;
     margin: 28px 0 40px;
-    width: calc(100% - 60px);
   }
 
   #video > img {

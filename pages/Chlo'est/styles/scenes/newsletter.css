@@ -58,10 +58,12 @@
 
   #newsletter__heading {
     margin-bottom: 20px;
+    font-size: 36px;
   }
 
   #newsletter__paragraph {
     margin-bottom: 30px;
+    line-height: 32px;
   }
 }
 

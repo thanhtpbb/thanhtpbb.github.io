@@ -1,10 +1,14 @@
 #journey {
   padding: 90px 135px;
-  gap: 94px;
+}
+
+#journey__inner {
+  width: 100%;
 }
 
 #journey__content {
   margin-top: 112px;
+  width: 500px;
 }
 
 #journey__image--wrapper {
@@ -60,9 +64,18 @@
   position: relative;
 }
 
+@media (max-width: 1350px) {
+  #journey__bg {
+    width: 430px;
+  }
+}
+
 @media (max-width: 1200px) {
   #journey {
     padding: 40px 15px;
+  }
+
+  #journey__inner {
     flex-direction: column;
   }
 
@@ -72,13 +85,26 @@
   }
 
   #journey__bg {
-    width: calc(100%);
+    width: 345px;
     height: 272.37px;
     margin-top: -214.87px;
+    max-width: 100%;
+  }
+
+  #journey__content {
+    margin-top: 60.48px;
+    width: initial;
   }
 
   #journey__about {
     width: 106.7px;
     height: 59.22px;
+  }
+}
+
+@media (min-width: 1441px) {
+  #journey__inner {
+    justify-content: center;
+    gap: 94px;
   }
 }
