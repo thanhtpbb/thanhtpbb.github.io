@@ -8,10 +8,12 @@
 
 #testimonial__inner {
   flex: 1;
+  transition: transform 0.5s ease;
 }
 
 .testimonial__icon {
   top: calc(50% - 9px);
+  transition: opacity 0.3s ease;
 }
 
 #testimonial__icon--left {
@@ -28,6 +30,7 @@
   margin: 60px 0 50px;
   color: #adadad;
   max-width: 800px;
+  transition: opacity 0.3s ease;
 }
 
 .testimonial__avt {
@@ -37,12 +40,14 @@
   background-image: url('../../assets/img/testimonial-avt.png');
   background-position: top;
   background-size: cover;
+  transition: opacity 0.3s ease;
 }
 
 .testimonial__name {
   margin: 20px 0 69px;
   font-size: 17px;
   line-height: 18px;
+  transition: opacity 0.3s ease;
 }
 
 .testimonial__circles {
@@ -55,6 +60,13 @@
   background-size: cover;
   width: 17px;
   height: 17px;
+}
+
+.testimonial__icon:hover,
+.testimonial__avt:hover,
+.testimonial__name:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
