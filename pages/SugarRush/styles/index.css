@@ -44,7 +44,7 @@ h3 {
 
 h1 {
   font-size: 50px;
-  line-height: 62px;
+  line-height: 62.45px;
 }
 
 h2 {
@@ -57,10 +57,17 @@ h2 {
 
 h3 {
   font-size: 26px;
-  line-height: 32px;
+  line-height: 32.47px;
 }
 
 p {
   font-size: 14px;
   line-height: 24px;
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
 }

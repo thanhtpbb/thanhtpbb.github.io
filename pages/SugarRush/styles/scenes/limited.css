@@ -20,6 +20,11 @@
   margin-right: 33.37px;
 }
 
+#limited__heading {
+  font-size: 40px;
+  line-height: 49.96px;
+}
+
 #limited__paragraph {
   max-width: 498px;
   margin: 10px 0 25px;
@@ -38,7 +43,12 @@
 
 .limited__counter--number {
   font-size: 40px;
-  line-height: 50px;
+  line-height: 49.96px;
+}
+
+.limited__counter--time {
+  font-size: 20px;
+  line-height: 24.98px;
 }
 
 #limited__quantity {
@@ -60,6 +70,9 @@
 
 #limited__submit {
   padding: 16px 41px 17px 42px;
+  color: #5e4109;
+  font-size: 14px;
+  line-height: 17.49px;
 }
 
 @media (max-width: 1200px) {
@@ -88,11 +101,17 @@
   .limited__counter {
     width: 60px;
     height: 60px;
+    border-radius: 10px;
   }
 
   .limited__counter--number {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 29.98px;
+  }
+
+  .limited__counter--time {
+    font-size: 14px;
+    line-height: 17.49px;
   }
 
   #limited__quantity {

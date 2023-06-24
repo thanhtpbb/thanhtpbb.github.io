@@ -73,7 +73,7 @@
 
 .featured__product--name {
   font-size: 22px;
-  line-height: 27px;
+  line-height: 27.48px;
   margin: 30px 0 10px;
 }
 
@@ -84,18 +84,18 @@
 
 .featured__product--price {
   font-size: 22px;
-  line-height: 27px;
+  line-height: 27.48px;
 }
 
 .featured__product--sale-price {
   font-size: 22px;
-  line-height: 27px;
+  line-height: 27.48px;
 }
 
 .featured__product--button {
   padding: 17px 59px 16px;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 17.49px;
 }
 
 @media (max-width: 1200px) {
@@ -109,7 +109,7 @@
 
   #featured__heading {
     font-size: 30px;
-    line-height: 37px;
+    line-height: 37.47px;
     margin: 10px 0 30px;
   }
 

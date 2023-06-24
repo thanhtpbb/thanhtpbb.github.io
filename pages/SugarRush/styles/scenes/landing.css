@@ -25,13 +25,14 @@
 #landing__button {
   padding: 19px 66px 20px 67px;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 22.48px;
 }
 
 @media (max-width: 1200px) {
   #landing {
     padding: 60px 15px 120px;
     flex-direction: column;
+    background-position: 15%;
   }
 
   #landing__cake {
@@ -44,6 +45,11 @@
 
   #landing__content {
     align-self: center;
+  }
+
+  #landing__heading {
+    font-size: 30px;
+    line-height: 37.47px;
   }
 
   #landing__paragraph {
