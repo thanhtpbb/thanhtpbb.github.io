@@ -393,9 +393,17 @@
       <div id="featured" class="product-list-container bg-primary flex">
         <div class="flex flex-wrap product-list-container__inner">
           <div
-            class="flex text-center align-center justify-center featured__main--img product__column"
+            id="featured__main--img--wrapper"
+            class="product__column flex justify-center"
           >
-            <h2 class="light-text" id="featured__heading">Featured Product</h2>
+            <div
+              id="featured__main--img"
+              class="flex text-center align-center justify-center"
+            >
+              <h2 class="light-text" id="featured__heading">
+                Featured Product
+              </h2>
+            </div>
           </div>
           <div class="product product__column">
             <div class="product__img" id="featured__product--1"></div>
