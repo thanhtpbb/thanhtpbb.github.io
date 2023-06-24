@@ -29,6 +29,7 @@
   background-color: #fff;
   border-radius: 20px;
   padding: 20px;
+  cursor: pointer;
 }
 
 .featured__product--img {
@@ -37,6 +38,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  transition: background-image 0.3s ease;
 }
 
 #featured__product--img-1 {
@@ -69,6 +71,38 @@
 
 #featured__product--img-8 {
   background-image: url('../../assets/img/featured-8.png');
+}
+
+#featured__product--img-1:hover {
+  background-image: url('../../assets/img/featured-1-hover.png');
+}
+
+#featured__product--img-2:hover {
+  background-image: url('../../assets/img/featured-2-hover.png');
+}
+
+#featured__product--img-3:hover {
+  background-image: url('../../assets/img/featured-3-hover.png');
+}
+
+#featured__product--img-4:hover {
+  background-image: url('../../assets/img/featured-4-hover.png');
+}
+
+#featured__product--img-5:hover {
+  background-image: url('../../assets/img/featured-5-hover.png');
+}
+
+#featured__product--img-6:hover {
+  background-image: url('../../assets/img/featured-6-hover.png');
+}
+
+#featured__product--img-7:hover {
+  background-image: url('../../assets/img/featured-7-hover.png');
+}
+
+#featured__product--img-8:hover {
+  background-image: url('../../assets/img/featured-8-hover.png');
 }
 
 .featured__product--name {
