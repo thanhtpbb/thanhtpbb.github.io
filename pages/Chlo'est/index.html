@@ -65,30 +65,32 @@
             </div>
             <div id="journey__bg" class="bg-secondary"></div>
           </div>
-          <div id="journey__content">
-            <div id="journey__changers" class="position-relative">
-              <div class="snowflake position-absolute"></div>
-              <div id="journey__sparklings" class="flex">
-                <div class="changer journey__sparklings--item"></div>
-                <div class="changer journey__sparklings--item"></div>
-                <div class="changer journey__sparklings--item"></div>
-                <div class="changer journey__sparklings--item"></div>
+          <div id="journey__content" class="flex align-center">
+            <div id="journey__content--inner">
+              <div id="journey__changers" class="position-relative">
+                <div class="snowflake position-absolute"></div>
+                <div id="journey__sparklings" class="flex">
+                  <div class="changer journey__sparklings--item"></div>
+                  <div class="changer journey__sparklings--item"></div>
+                  <div class="changer journey__sparklings--item"></div>
+                  <div class="changer journey__sparklings--item"></div>
+                </div>
               </div>
+              <h2 class="heading-text" id="journey__heading">Our Journey</h2>
+              <p class="paragraph-text fw-bold" id="journey__subheading">
+                Chlo'est was founded in 2015 with the philosophy, ''Stay forever
+                20 with Chlo'est''
+              </p>
+              <p class="paragraph-text" id="journey__paragraph">
+                We provide hydrating skin care items offer deep hydration by
+                utilizing the water-binding strength of Super Hyaluronic Acid.
+                Using them as a device to cleanse, hydrate, and treat the skin
+                with good, young, and effortlessly radiant outcomes.
+              </p>
+              <button class="btn btn-secondary" id="journey__button">
+                Read More
+              </button>
             </div>
-            <h2 class="heading-text" id="journey__heading">Our Journey</h2>
-            <p class="paragraph-text fw-bold" id="journey__subheading">
-              Chlo'est was founded in 2015 with the philosophy, ''Stay forever
-              20 with Chlo'est''
-            </p>
-            <p class="paragraph-text" id="journey__paragraph">
-              We provide hydrating skin care items offer deep hydration by
-              utilizing the water-binding strength of Super Hyaluronic Acid.
-              Using them as a device to cleanse, hydrate, and treat the skin
-              with good, young, and effortlessly radiant outcomes.
-            </p>
-            <button class="btn btn-secondary" id="journey__button">
-              Read More
-            </button>
           </div>
         </div>
       </div>
@@ -452,8 +454,19 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-center align-center" id="video">
-        <img src="./assets/icons/play-video.svg" />
+      <div
+        class="flex justify-center align-center position-relative"
+        id="video"
+      >
+        <video width="100%" id="video--video" loop>
+          <source src="assets/videos/placeholder.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <img
+          class="position-absolute"
+          id="video--triggerer"
+          src="./assets/icons/play-video.svg"
+        />
       </div>
       <div class="flex bg-primary justify-center" id="faq">
         <div class="flex justify-space-between" id="faq__inner">
@@ -562,20 +575,41 @@
           class="flex justify-space-between testimonial__content text-center"
         >
           <img
-            class="testimonials__change testimonials__polygon-left"
+            class="testimonials__change"
+            id="testimonials__polygon-left"
             src="./assets/icons/polygon-left.svg"
+            onclick="goPrev()"
           />
-          <div class="flex flex-column align-center">
-            <p class="testimonial__comment">
-              "I've already gotten compliments about my skin glowing after using
-              the anti-aging!"
-            </p>
-            <div class="testimonials__avt"></div>
-            <img id="testimonials__flower" src="./assets/icons/flower.svg" />
+          <div class="testimonial__content--inner position-relative">
+            <div class="testimonial__slider">
+              <p class="testimonial__comment">
+                "I've already gotten compliments about my skin glowing after
+                using the anti-aging!"
+              </p>
+              <div class="testimonials__avt" id="testimonials__avt--1"></div>
+              <img id="testimonials__flower" src="./assets/icons/flower.svg" />
+            </div>
+            <div class="testimonial__slider">
+              <p class="testimonial__comment">
+                "My skin has never looked better! The products are amazing!"
+              </p>
+              <div class="testimonials__avt" id="testimonials__avt--2"></div>
+              <img id="testimonials__flower" src="./assets/icons/flower.svg" />
+            </div>
+            <div class="testimonial__slider">
+              <p class="testimonial__comment">
+                "I'm so happy with the results! This skincare routine has
+                transformed my skin!"
+              </p>
+              <div class="testimonials__avt" id="testimonials__avt--3"></div>
+              <img id="testimonials__flower" src="./assets/icons/flower.svg" />
+            </div>
           </div>
           <img
-            class="testimonials__change testimonials__polygon-right"
+            class="testimonials__change"
+            id="testimonials__polygon-right"
             src="./assets/icons/polygon-right.svg"
+            onclick="goNext()"
           />
         </div>
       </div>
@@ -611,5 +645,6 @@
     </main>
     <script src="./scripts/testimonial.js"></script>
     <script src="./scripts/faq.js"></script>
+    <script src="./scripts/video.js"></script>
   </body>
 </html>

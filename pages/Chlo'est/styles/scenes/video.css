@@ -3,14 +3,11 @@
   background-position: center;
   background-size: cover;
   min-height: 339px;
+  cursor: pointer;
 }
 
 #video > img {
   padding: 166px 0;
-}
-
-#video > img:hover {
-  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
