@@ -103,6 +103,20 @@
   }
 }
 
+@media (max-width: 550px) {
+  .testimonial__content--inner {
+    height: 360px;
+  }
+
+  /* #testimonials__flower {
+    margin-top: -px;
+  }
+
+  .testimonials__avt {
+    margin-top: 50px;
+  } */
+}
+
 @media (max-width: 480px) {
   .testimonials__change {
     display: none !important;
