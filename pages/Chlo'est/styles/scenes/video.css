@@ -1,15 +1,32 @@
 #video {
   cursor: pointer;
+  overflow: hidden;
+  height: 570px;
 }
 
 #video > img {
   padding: 166px 0;
 }
 
+#video--video {
+  width: 100%;
+}
+
 @media (max-width: 1200px) {
+  #video {
+    height: initial;
+  }
+
   #video > img {
     padding: 82px 0 81px;
     width: 176px;
     height: 176px;
+  }
+}
+
+@media (max-width: 450px) {
+  #video--video {
+    width: auto;
+    height: 339px;
   }
 }

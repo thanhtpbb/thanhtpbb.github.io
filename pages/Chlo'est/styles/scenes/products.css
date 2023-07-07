@@ -1,5 +1,5 @@
 #products {
-  padding: 110.32px 135px 80px;
+  padding: 90px 135px;
 }
 
 #products__changers {
@@ -130,7 +130,7 @@
 
 @media (max-width: 1200px) {
   #products {
-    padding: 60.32px 15px 30px 14px;
+    padding: 40px 15px 30px 14px;
   }
 
   .products__product {
@@ -177,8 +177,9 @@
   }
 
   .products__product--button {
-    padding: 16px 0;
+    padding: 15px 0;
     width: calc(144px);
+    line-height: 18px;
   }
 }
 

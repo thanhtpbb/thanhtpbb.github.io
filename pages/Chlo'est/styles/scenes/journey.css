@@ -55,7 +55,7 @@
 }
 
 #journey__button {
-  padding: 20px 56px;
+  padding: 19px 56px;
 }
 
 .journey__sparklings--item {
@@ -98,6 +98,14 @@
   #journey__about {
     width: 106.7px;
     height: 59.22px;
+  }
+
+  #journey__button {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.5px;
   }
 }
 

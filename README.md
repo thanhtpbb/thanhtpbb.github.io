@@ -9,4 +9,3 @@
 
 - Take a look one more time for styling and layout malfunctions
 - Add JS functions to all Testimonials
--
